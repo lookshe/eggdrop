@@ -1,0 +1,2334 @@
+.~$~ Temporäre Datei
+.~ap AppExpert project database Datei
+.~de Project backup Datei
+.~mn Menu backup
+.~pr Project backup Datei
+.0 Data Datei
+.000 Komprimierte Datei
+.001 NetWare Unicode Rule Table File
+.001 Datanorm (Daten)
+.04 Data Datei
+.05 Data Datei
+.06 Data Datei
+.07 Data Datei
+.1-step Backup Datei
+.113 Backup Datei (Daten)
+.123 Lotus 123 97 Datei
+.12m Smartmaster Datei
+.1st Documenting wizard list
+.2d 2-dimens. Zeichnung
+.2dm 3-dimens. Geländemodell
+.3d 3-dimens. Zeichnung
+.3dm 3D Model
+.3dr 3DMark.Result
+.3ds 3D Studio
+.3gp Third Generation Partnership
+.411 Daten Datei
+.4db Structure File
+.4dd 4D Data File
+.4dr Data Resource file
+.4ge Compiled code
+.4gl Source code
+.4v Musikdatei
+.669 Composer 669
+.7z 7-Zip
+.8 Source Datei
+.8df Plug-in
+.8ds Plug-in
+.8xp Ti-8x Programm
+.a Archiv
+.a2l Beschreibungsdatei für Kraftfahrzeug-Steuergeräte
+.a3l Authorware 3.x library
+.a3m Authorware MacIntosh-Datei
+.a3w Authorware Windows-Datei
+.a4l Authorware 4.x library
+.a4m Authorware MacIntosh-Datei
+.a4p Authorware Datei
+.a4w Authorware Windows-Datei
+.a5l Authorware 5.x library
+.a5w Authorware Windows Datei
+.aa Audible audio Datei
+.aac Advanced Audio Coding
+.aam Authorware shocked Datei
+.aas Authorware shocked packet
+.ab Applix-Builder-Datei
+.abf Adobe Binary Screen Font
+.abc ABC (Musiknotation)
+.abk Backup-Datei
+.abk Corel Draw Auto-Backup
+.abm Audio-album-Datei
+.abo Applix Builder Turbo Datei
+.abs MPEG Audio-Sound-Datei
+.abs abstract
+.abw Abiword-Dokument
+.aca HTTP animation Datei
+.aca Project Manager Workbench Datei
+.acb ACBM Graphic image
+.acc DR-DOS Viewmax-Datei
+.acc Accessory
+.acd Character definition Datei
+.acd Acid Song File
+.ace ace Archiv
+.acf HTTP character Datei
+.aci ACI development appraisal
+.acl keyboard accelerator Datei
+.acm Dynamic Link Library
+.acm Interplay compressed sound Datei
+.acp Assistant Preview Datei
+.acr American College of Radiology
+.acs Character structered storage
+.act Action Presentation
+.act Foxdoc Action Diagram
+.act Assistant Actor Datei
+.ad After Dark
+.ada Ada source text
+.adb Ada source text body
+.adb Appointment database
+.adc Color Bitmap Graphic
+.add OS/2 adapter driver
+.adf Amiga disk Datei
+.adf Adapter Description File
+.adi AutoCAD device-independent
+.adi Driver Description
+.adl QEMM Mca adaptor description library
+.adm After Dark MultiModule
+.adm Windows NT policy template
+.adn Lotus 1-2-3 Add-In-Datei
+.adp Astound Dynamite Datei
+.adp Access Database Project
+.adp Dynamic Page Datei
+.adp FaxWorks Faxmodem Setup-Datei
+.adr After Dark Randomizer
+.adr Smart Address address book
+.adr Opera Bookmark
+.ads Ada source text specification Datei
+.ads ADIS=Animal Data Interchange Syntax
+.adt AdTech Fax Datei
+.adt datafile for card applications
+.adx Archetype Designer Document
+.adx Dynazip Active Delivery script
+.adx Lotus Approach dBase Index
+.adz Packed ADF Datei
+.ae Author/Editor Datei
+.aep ArcExplorer project
+.aep Adobe After Effects project
+.af2 ABC FlowCharter 2.0 Flowchart
+.af3 ABC Flowchart
+.afc Apple Sound-Datei
+.afi Truevision Bitmap graphic
+.afm Adobe font metrics
+.afm Cardfile application
+.ag Applix graphic
+.agb Game Boy Advance ROM image
+.agr Xmgrace Projekt
+.ahk Autohotkey
+.ai Adobe Illustrator drawing
+.ai Corel Trace drawing
+.aifc Audio Interchange File Format compressed
+.aim AOL Instant Messenger Startdatei
+.ain AIN Compressed archive
+.aio APL transfer Datei
+.ais ACDSee Image Sequence
+.ais Velvet Studio Instruments Datei
+.ais Array of Intensity Samples
+.aix Cardfile Application data
+.akz Akzent-Datei
+.alaw European Telephony audio
+.alb Album
+.ale AvidLogExchange
+.ali Dokument
+.all Arts & Letters Library
+.all General printer information
+.all Steinberg Cubase
+.alo Alamo-Datei
+.alt WordPerfect Library Menu
+.alt alte Version
+.alv (MIS) Alea View
+.alz Alzip
+.am Applix SHELF Macro
+.am App-Magic Datei
+.am1 Adventure-Maker Programm
+.amdb App-Magic Datenbank
+.amf Asylum (module/music) (format/file)
+.amf Advanced Module Format
+.amg ACTOR System image
+.amg AMGC Compressed archive
+.ami Annotation Datei
+.ampp App-Magic Programm-Paket
+.amr Adaptive MultiRate
+.ams Extreme's Tracker module
+.ams Velvet Studio music module
+.an Textdatei
+.an8 Anim8or
+.anc Canon Computer Pattern Maker
+.ani Animierter Cursor
+.anim Animation
+.anm DeluxPaint Animation
+.ann Windows 3.x Help annotation
+.ans ANSI Textdatei
+.ant SimAnt saved game
+.aob Audio Objects
+.aol America Online Datei
+.aos Add-on software
+.aot Application bindery object template
+.ap Applix Presents Datei
+.ap WHAP Compressed Amiga archive
+.apc Compiled application
+.apc Druckertreiber
+.apd Dynamic application library
+.apd Druckertreiber
+.ape Ape (engl. für Affe)
+.apf Druckertreiber
+.apf Allaire Project File
+.api Application Program Interface
+.api Druckertreiber
+.apl APL Workspace Datei
+.apl Application library
+.app Application Generator Object
+.app Executable Application
+.app Generated Application
+.app Normal mode application
+.app Symphony Add-in Application
+.apr ArcView Projektdatei
+.apr Employee Appraiser Performance Review
+.apr Lotus Approach View
+.aps Advanced patching systems
+.apt Lotus Approach Data view
+.apt Text mode application
+.apx Appexpert database
+.apx Lotus Approach Paradox-Specific information
+.aq Applix data
+.arf Automatic Response Datei
+.ari ARI Compressed archive
+.ari Aristotle audio Datei
+.arj Archive Robert Jung
+.arl AOL v4.0 organizer Datei
+.arr Steinberg Cubase
+.art AOL Image Datei
+.art Canon Crayola art
+.art Clip Art
+.art First Publisher Raster graphic
+.art Ray Tracer Datei
+.art Xara Studio drawing
+.arx ARX Compressed Archive
+.as Applix Spreadsheet
+.as ActionScript
+.asa Microsoft Visual InterDev Datei
+.asc ASCII-Datei
+.ascx ASP.NET Control
+.asd Astound Presentation
+.asd Bildschirmtreiber
+.asd AutoSave Datei
+.ase Velvet Studio Sample Datei
+.asf Bildschirmschriftart
+.asf StratGraphics Datafile
+.ash Assembly language header
+.asi Assembler Include Datei
+.asl Style-Datei
+.asm Assembler-Quellcode
+.asm Pro/E assembly
+.asm Solid Edge Assembly
+.asmdot Assembly Template
+.aso Astound Dynamite Object
+.asp Active Server Pages
+.asp Astound Presentation
+.asp Setup- und Verbindungsscript
+.aspx ASP.NET Seite
+.ass Advanced SubStation Alpha
+.ast Astound multimedia Datei
+.ast assistant
+.asv DataCAD Autosave Datei
+.asv Matlab Autosave Datei
+.asx CA BrightStor ARCserve Backup script
+.asx Microsoft Advanced Streaming Redirector
+.at2 Auto Template
+.atf APL Transfer Datei
+.atm Adobe Type Manager data/info Datei
+.atm Atmosphere
+.atn Aktionendatei
+.att AT&T Group 4 bitmap
+.atw AnyTime Deluxe for Windows
+.au Audio U-law
+.aud Audio Datei
+.aup easyLEARN Author Projekt
+.aut AutoIt Script
+.aut easyLEARN Author Lernmittelbeschreibung
+.au3 AutoIt v3 Script
+.aux Auxilliary Dictionary
+.aux Auxilliary Reference Datei
+.aux Geospatial Imaging ERDAS IMAGINE and LPS Data File
+.ava Avagio Publication
+.avb Virusinfizierte Datei
+.ave Avenue-Script
+.avi Audio Video Interleave
+.avp Symbolpalette
+.avr Audio Visual Research Datei
+.avs Application Visualization System
+.avs Stardent AVS-X Image
+.avx Erweiterung (Extension)
+.aw Applix Words
+.aw Textdokument
+.awd FaxView Document image
+.awk AWK Script/Program
+.awm Animation Works Movie
+.awr Telsis Datei
+.aws StatGraphics Data
+.axl ArcIMS XML project
+.axt ASCII application object template
+.b Applause Batch list
+.b Spielstand
+.b30 printer font
+.b4 Helix Nuts and Bolts
+.b5t Blind Write 5
+.b64 Base64-Datei
+.b8 Raw graphic
+.bad Oracle bad Datei
+.bag BAG Archiv
+.bak Backup-Datei
+.bal Ballade Music score
+.bar Horizontal menu object
+.bas Basic (Source code)
+.bat Batch
+.bb Papyrus Database backup
+.bb Blitz Basic
+.bbl Bibliographic reference
+.bbm Deluxe Paint Bitmap image
+.bbs Bulletin Board System text
+.bc! Bittorrent-Client-Datei
+.bch Batch Process Object
+.bch Daten-Datei
+.bcm Communications Datei
+.bco Bitstream Outline font description
+.bcp Makefile
+.bcw Environment settings
+.bdb Datenbank
+.bdf Egret Datafile
+.bdf West Point Bridge Designer File
+.bdf Birthday File
+.bdf Binary Diff File
+.bdl Bundle Datei (2D und 3D CAD Zeichnung)
+.bdr Border
+.bdsproj Borland Developer Studio Projekt
+.bez Bitstream Outline font description
+.bf Brainfuck
+.bf2 Bradford 2 Font
+.bfc Microsoft Windows 95 Briefcase Document
+.bfe Blowfish encrypted
+.bfm Font Metrics Datei
+.bfx Fax document Datei
+.bg Microsoft Backgammon Game
+.bga OS/2 Graphic array
+.bgi Borland Graphics Interface Driver
+.bgl Microsoft Flight Simulator Scenery
+.bhf pcAnywhere Host Datei
+.bhx WinZip file
+.bi binary
+.bi Basic Include file
+.bib Bibliography Datei
+.bib Literatur-Datenbank (Bibliografie)
+.bif GroupWise initialization Datei
+.bif Binary Image b&w graphic
+.biff XLITE 3D Datei
+.bik bink video
+.bin binary (file)
+.bio OS/2 Bios Datei
+.bit X11 Bitmap
+.bk Backup
+.bk JetFax Faxbook Datei
+.bk! Document backup
+.bk$ Backup
+.bkp Backup
+.bks bookshelf Datei
+.bks Spreadsheet Backup
+.bkw FontEdit Fontset mirror image
+.blb Resource archive
+.bld BASIC Bloadable picture
+.blend Blender3D
+.blib WorkBench++ für C-Control I
+.blk Alias Wavefront Image
+.blk Temporäre Datei
+.bm Bitmap
+.bm1 Apogee BioMenace data
+.bmf Corel Gallery Datei
+.bmk Windows Help bookmark
+.bmp Bitmap
+.bmp Bitmap
+.bmp Bitmap
+.bmt Ami Pro Button
+.bmx BlitzMax
+.bn Instrument Bank Datei
+.bnk Instrument Bank Datei
+.bnk Sound effects bank Datei
+.bol Compressed archive library
+.bom Bill of materials
+.bom Bill of materials
+.boo Compressed archive
+.book Book
+.bos Optimized Binary File
+.box Lotus Notes Datei
+.bpc Business Plan Toolkit Chart
+.bpl Borland Delphi 4 packed library
+.bpr Borland Projekt Datei
+.bpp WorkBench++ für C-Control I
+.bps Microsoft Works Document
+.bpt CorelDraw Bitmap fills Datei
+.bpx Truevision Targa Bitmap
+.bqy BrioQuery Datei
+.br Bridge Script
+.brd Board
+.brd Board
+.brk Brooktrout Fax-Mail Datei
+.brush DPaint Grafikdatei
+.brz DbBRZ
+.bs_ Find Menu shell extension
+.bs1 Apogee Blake Stone Datei
+.bsa BSARC Compressed archive
+.bsc Apple II Compressed archive
+.bsc Fortran Pwbrmake Object
+.bsc browser information
+.bsp Quake-Engine Map Datei
+.bst BiblioTex file
+.btm Batch-Datei
+.btn Makeover Button File
+.btr Btrieve-Datenbank
+.bud Backup disk for Quicken
+.bun CakeWalk Audio Bundle
+.bup Backup
+.but Button definition
+.bw SGI Black and White image
+.bwb Spreadsheet application
+.bwi BlindWrite Image
+.bwr Kermit Beware buglist
+.bws Sub-Code BlindWrite
+.bwt Blindread Image
+.bwv Business Wave Datei
+.byu BYU Movie
+.bz bzip
+.bz2 bzip2
+.c C Source Code File
+.c configuration
+.cpp C++
+.C C++
+.c00 Ventura Publisher Print Datei
+.C01 Typhoon wave
+.c2 C-Controll II Modul
+.c2d WinOnCD CD-Image
+.c2p C-Controll II Projekt
+.c4d Cinema4D-Scenefile
+.c4d Clonk 4 Objektdefinition
+.c4f Clonk 4 Rundenordner
+.c4g Clonk 4 Systemdaten
+.c4k Clonk 4 Registrierschlüssel
+.c4m Clonk 4 Materialdefinition
+.c4p Clonk 4 Spielerdatei
+.c4s Clonk 4 Szenario
+.c4x Clonk 4 Engine
+.C86 C86 Quellcode
+.ca Cache-Datei
+.cab Microsoft Cabinet Datei
+.cac Executable Datei
+.cad Softdesk Drafix Cad
+.cag Catalog Datei
+.cal Kalender-Datei
+.Crash Absturzmeldung
+.cal Cakewalk Application Language
+.cal CALS
+.cal SuperCalc Spreadsheet
+.cam Casio camera Datei
+.can Canvas
+.cap Capture Datei
+.cap Caption
+.car AtHome assistant Datei
+.car Carrara Datei
+.carc Nintendo textur,graphic,platten,course File
+.cas Comma-delimited ASCII Datei
+.cat Sicherheitskatalog
+.cat Catalogue Datei
+.cat categorization Datei
+.cat Stellarium Star Catalogue
+.CATpart Part Datei
+.cb clean boot Datei
+.cbc CubiCalc Fuzzy Logic
+.cbf Atari DOS Chebase Datei
+.cbf Chessbase File
+.cbf CSDL Dokument
+.cbh Chessbase File
+.cbi Column binary
+.cbl Cobol
+.cbm Compiled Bitmap
+.cbr Comic book Rar-Archive
+.cbt Computer based training
+.cbz Comic Book Zip
+.cc C++
+.cc custom class
+.cc3 CUEcards Datenbank
+.cca cc:mail archive
+.ccb Animated Button configuration
+.ccc Curtain Call Native bitmap
+.ccd CloneCD-Image-Control-Datei
+.cce Kalender
+.ccf Communications Configuration
+.ccf Concerto Container File
+.ccf CryptLoad Container File
+.cch Corel Chart
+.ccl Communication Command Language
+.ccm Lotus CC:Mail "box" Datei
+.cco CyberChat-Datei
+.cco XBTX Graphics
+.cct Shockwave cast Datei
+.cct DesignWorks Datei
+.cda CD Audio Track
+.cdb CardScan Database
+.cdb Clipboard Datei
+.cdb Conceptual model backup
+.cdb Main database
+.cdb Pocket Access Database
+.cdf Channel Definition Format
+.cdf Netcdf Graphic Datei
+.cdfs Compact Disc filing system
+.cdi Compact Disc Interactive
+.cdk Atari Calamus Document
+.cdm Conceptual data model
+.cdm Custom data module
+.cdm Custom Device Module
+.cdr CorelDRAW file
+.cdr CD raw data
+.cdt CorelDRAW template
+.cdx CorelDRAW compressed drawing
+.cdx Compound Index
+.ce Main CE Datei
+.ceg Tempra Show Bitmap graphic
+.cel AutoDesk Animator Cel Image
+.cel CIMFast Event Language Datei
+.cer Certificate Datei
+.cf Imake Configuration Datei
+.cfb Comptons Multimedia Datei
+.cfg Configuration File
+.cfl CorelFLOW Chart
+.cfm ColdFusion template
+.cfm Corel FontMaster Datei
+.cfm Creative FM-Music
+.cfm Windows customer form
+.cfn Atari Calamus Font Datei
+.cfo C form object
+.cfp Complete Fax Portable
+.cgi Common gateway interface script
+.cgm Computer Graphics Metafile
+.ch Clipper 5 Header
+.ch OS/2 Konfigurationsdatei
+.ch3 Chart
+.ch4 Charisma Presentation
+.chd Chameleon Font descriptor
+.chf remote control Datei
+.chi ChiWriter Document
+.chk Checkdisk
+.chl Configuration History Log
+.chm Compiled HTML Help
+.chn Ethnograph Data Datei
+.chp Chapter Datei
+.chr Character Sets
+.cht ChartMaster dBase Interface
+.cht ChartViewer Datei
+.cht Harvard Graphics Vector Datei
+.cif CalTech Intermediate Graphic
+.cif Creator Image Datei
+.cif caller Datei
+.cif Crystallographic Information File
+.cil Clip Gallery download packag
+.cil Cilea Einheitengruppe
+.cim Sim City 2000 Datei
+.cix Database Index
+.ckb Keyboard mapping Datei
+.cl Generic LISP
+.cl3 Layout Datei
+.class Java .class Datei Format
+.clc APROL ChronoLog Container
+.clg Disk Catalog Datenbank
+.cll Cricket Software Clicker Datei
+.clo Cloe Image
+.clp Compiler Script
+.clp Clip art
+.clp Clipboard
+.clr color screen image
+.clr Color definition
+.cls Klassenquelldatei
+.cls Klassenquelldatei
+.cls Klassendefinition
+.clt APROL ChronoLog Template
+.clw Class Wizard
+.clw Quellcodedatei
+.clz Tomb Raider 6 Archive
+.cm Craftman Data
+.cmd External Command Menu
+.cmd Command Datei
+.cmd Programmdatei
+.cmf Corel Metafile
+.cmg Chessmaster saved game
+.cmk Card Shop Plus Datei
+.cmm CEnvi Batch Datei
+.cmp Postscript Printer Header
+.cmp User dictionary
+.cmp Address Document
+.cmr MediaPlayer Movie
+.cmv Corel Move animation
+.cmx Corel Presentation Exchange image
+.cmyk cyan, magenta, yellow, and black
+.cnc CNC General Program data
+.cnf Configuration
+.cnq Compuworks Design Shop
+.cnt Contents
+.cntl z/OS JCL-Library
+.cnv Conversion files
+.cnv conversion support Datei
+.cnv Temporäre Datei
+.cnv Canvas Drawing
+.cob Cobol
+.cob trueSpace 2 object
+.cod Template source Datei
+.cod FORTRAN Compiled code
+.cod compiled code
+.cod Video Text Datei
+.col Color Palette
+.col Multiplan Spreadsheet
+.com Command
+.con Konfiguration
+.conf Configuration
+.config Configuration
+.coo Components File
+.cp4 Cplan
+.cp8 CP8 256 Gray Scale image
+.cpc Cartesian Perceptual Compression
+.cpd Complaints Desk Script
+.cpd Corel PrintOffice Datei
+.cpf Complete Fax
+.cph Corel Print House
+.cpi ColorLab Processed Image
+.cpi code page information
+.cpio cpio-Archiv
+.cpj CD Project
+.cpj Track-Abbild
+.cpl Compel Presentation
+.CPL Corel color palette
+.cpl Control Panel Library
+.cpo Corel Print Office
+.cpp C Plus Plus (C++)
+.cpp Cricket Presents presentation
+.cpr Corel Presents presentation
+.cpr Cubase Project
+.cps PC Tools Backup
+.cps Coloured postscript
+.cpt Cricket Presents Template
+.cpt Corel Photo-Paint image
+.cpt Encrypted Memo
+.cpx Corel Presentation Exchange
+.cpy Copy Books
+.cpz COMPOZ Music Text
+.cr2 Canon RAW Format
+.crc Cyclic Redundancy Check
+.crc Circular reference Datei
+.crd Cardfile
+.crf cross-reference
+.crf PkZip gepacktes Archiv
+.crh Image Datei
+.crl Certificate Revocation List
+.crp Corel run-time presentation
+.crp Encrypted database
+.crp custom report
+.crs Conversion resource
+.crt Certificate
+.crt Crontab Datei
+.crt Terminal settings information
+.crt CaRTridge Image
+.cru CRUSH
+.crw Canon Raw Image
+.cs C-Sharp
+.csa Comma deliminated text
+.csb Cosmo3D scenegraph binary
+.csb Corel script binary
+.csb Crashsoft BASIC
+.csc Corel script
+.csg Statistica/w Graph Datei
+.csh C shell script files
+.csm Precompiled header
+.csm Script Datei
+.cso Customer service data + outcome
+.csp PC Emcee On-Screen image
+.css Statistica/w Datasheet
+.css Stats+ Datafile
+.css Cascading Style Sheet
+.cst Cast
+.csv Comma separated values
+.csv Adjusted EGA/VGA Palette
+.ct Scitex CT bitmap
+.ctb color-dependent plot style table
+.ctc PC Installer Control
+.ctf code translation
+.ctg Canon Power Shot Info File
+.ctl Control
+.ctl control file
+.ctx Course Text
+.ctx Ciphertext
+.ctx User control binary
+.cub Cube Datei
+.cue CUEcards Datenbank
+.cue Cue-sheet
+.cul Cursor library
+.cup Datenbankdatei
+.cur Cursor-Datei
+.cursor Cursor
+.cut Dr Halo Bitmap
+.cutlist Cut Assistant (früher Asfbin Assistant)
+.cv Corel Versions archive
+.cv information screen
+.cv5 Canvas Drawing
+.cvi Canvas Drawing
+.cvg Image
+.cvs Canvas Drawing
+.cw I don't know
+.cwb Cakewalk Bundle
+.cwk Claris Works data
+.cwp Cakewalk Project
+.cws Claris Works template
+.cxt protected Cast
+.cxx C++
+.cys CSWgermany CYberSecure-CryptContainer
+.czip Encrypted ZIP
+.d Directory
+.d11 Abrechnungsdaten DA11
+.d2d 2D/3D object Datei
+.d64 disk image
+.d71 disk image
+.d81 disk image
+.d81 Leistungsverzeichniss
+.d83 Angebotsaufforderung
+.d84 Angebotsabgabe
+.d85 Nebenangebot
+.d86 Auftragserteilung
+.d88 Nachtrag
+.d89 Rechnung
+.daa CD/DVD-Image
+.dao Disc At Once
+.dap Data access page
+.dat Data
+.dat Virtuelle Partition
+.datatype Datatype
+.db Datenbank
+.db table database
+.dbc database container
+.dbc CANdb Datenbank Datei
+.dbf Database Datei
+.dbf Enable database
+.dbf tablespace Datei
+.dbk Database Backup
+.dbk Schematic backup Datei
+.dbl 64-Bit doubles (RAW)
+.dbo Compiled program Datei
+.dbq Paradox Memo
+.dbt Text Memo
+.dbv Memo field Datei
+.dbw Database Datei
+.dbx DataBeam image
+.dbx Tabelle
+.dc DesignCAD
+.dc2 DesignCAD
+.dc4 ViaThinkSoft (De)Coder 4.x
+.dc5 DataCAD Drawing
+.dc6 DataCAD Drawing
+.dca Document Content Architecture
+.dca Active designer cache
+.dcd DIG-CAD
+.dcf Dyadic
+.dcf Disk Image Datei
+.dcim Imaging and Communications
+.dci DIG-CAD Ing.
+.dcm DICOM-Datei
+.dcm DCM module
+.dcp Data CodePage
+.dcr Shockwave Datei
+.dcr Delphi Compiled Resource
+.dcs Quark XPress
+.dcs Desktop Color Separation
+.dct Database Dictionary Datei
+.dct Database SpellCheck Dictionary
+.dct database container Datei
+.dcu Delphi compiled unit
+.dcx Bitmap Graphics Datei
+.dcx Fax image
+.dcx database container Datei
+.dd Macintosh DISKDOUBLER
+.ddb Bitmap Graphics Datei
+.ddf Data Definition Datei
+.ddi DISKDUPE
+.ddp Device Driver Profile
+.dds Direct Draw Surface
+.deb Debug Script
+.deb Debian Package
+.def Assembly Header Datei
+.def C++ definition Datei
+.def Define Module Datei
+.def SmartWare II data
+.defi de-install script
+.dem Digital Elevation Models
+.dem Demo Datei
+.dem Graphics Datei
+.dep Dependency Datei
+.der Certificate Datei
+.des Graphics Datei
+.desktop KDE .desktop file
+.dev Device Driver
+.device Device
+.dewf recorded instrument
+.dez DES ZIP
+.dfd Data Flow Diagram Graphic
+.dfi Outline Font description
+.dfl Default Program Settings
+.dfm Delphi-Formular
+.dfm Data Flow Diagram model
+.dfs Sound Datei
+.dfv Printing Form value
+.dfw Derive Worksheet
+.dgn Microstation CAD drawing
+.dgs Diagnostics Report
+.dh Dependency Information Datei
+.dhp Graphic Datei
+.dht Datafile
+.dia Diagraph Graphics Datei
+.dia diaFile Datei
+.dib Device-independent bitmap
+.dic Dictionary Datei
+.dicm Imaging and Communications
+.dif Data Interchange Format
+.dif Database Datei
+.dig Digilink Datei
+.dig Audio
+.dim Database Datei
+.dip Graphics Datei
+.dir Dialing Directory
+.dir Directory
+.dir Macromedia Director Datei
+.dir Director Movie
+.dis Distribution Datei
+.dis Ray Tracer Datei
+.dis Thesaurus Datei
+.disabled Disabled startup file
+.divx DivX-Media-Format
+.diz Description in ZIP
+.djv DjVu
+.djvu DjVu
+.dkb DKBTrace
+.dl Image
+.dlc Download-Link-Container
+.dld Datafile
+.dlg C++ Dialogue Script
+.dll Dynamic Link Library
+.dls Downloadable sound
+.dls Interactive music architecture
+.dls Setup Datei
+.dm3 Demo
+.dmd data module
+.dmf Disk Image
+.dmf music module
+.dmg Disk Image
+.dmo Demo Datei
+.dmp Dump Datei
+.dms Amiga DISKMASHER
+.dmv DOS4GW Videodatei
+.dng Digitales Negativ
+.dob User document
+.doc Document
+.doc Document
+.doc Document
+.doc Document
+.doc Document
+.doc Document
+.doc Document
+.docx Word 2007 XML Document
+.docm Word 2007 XML Document with Macros
+.doe Arena Model Document
+.dog Laughing Dog
+.doh Dependency Information
+.dos External Command Datei
+.dos Network Driver Datei
+.dos Local <-> Unicode Translator for code pages
+.dot Line-Type definition
+.dot Document Template
+.dox User document binary form
+.doz Description out of Zip
+.dp Kalender
+.dp DataPhile
+.dpg Moonshell MP4 Video
+.dpl packed library
+.dpr Delphi Projekt
+.dpr Project header
+.dpt Publication Datei
+.dr9 Directory Datei
+.draw drawing
+.drc Design rules check
+.drs Display Resource Datei
+.drv Device Driver
+.drw Lotus Freelance Image
+.drw Pro/E drawing
+.drw Micrografx Drawing
+.drwdot Drawing Template
+.ds4 Designer 4
+.dsc Discard Datei
+.dsd Database Datei
+.dsf Designer Datei
+.dsg DooM saved game
+.dsk Disk
+.dsk Project Desktop Datei
+.dsm Digital Sound Module
+.dsm Direct Show Media
+.dsm Dynamic Studio music module
+.dsm Music module Datei
+.dsn Design
+.dsn ODBC Data source
+.dsn Schematic Datei
+.dsp Display parameters
+.dsp Graphics Display driver
+.dsp Developer Studio project
+.dsq Corel QUERY
+.dsr Driver Resource
+.dsr Active designer Datei
+.dss Digital Sound Datei
+.dss Screensaver Datei
+.dst Distribution Datei
+.dst Embroidery machines graphic
+.dsw Desktop settings
+.dsw workspace Datei
+.dsx Active designer binary
+.dta Datafile
+.dta STARS data
+.dtapart DownThemAll!-Segmentdatei
+.dtd Document Type Definition
+.dted Digital terrain elevation data
+.dtf Datenbank
+.dtf Datenbank
+.dtf Datenbank
+.dtm Module Datei
+.dtp Desktop layout Datei
+.dtp Vorlage
+.dtp Text Document
+.dt_ Daten-Fork
+.dun Dial-up Networking
+.dup Duplicate
+.dv Digital video
+.dvc Datafile
+.dvi Device Independent
+.dvp Desqview Program information
+.dvp Device parameter Datei
+.dw2 Drawing Datei
+.dwd DiamondWare digitized
+.dwf Drawing Web Datei
+.dwf Vector graphic
+.dwg Drawing
+.dwp Dokument
+.dws Workspace Datei
+.dx Digital Electric Corporation
+.dxf Data Exchange Datei
+.dxf Drawing Interchange Format
+.dxn Fax document
+.dxr Macromedia Director protected
+.dxt Direct-X Texture
+.dylib Dynamic Library
+.dyn Datafile
+.e00 Coverage Export-Datei
+.e00 Exchange-Datei
+.eap easyLEARN Autor-Kursprogramm
+.eap Enterprise Architect Projekt
+.ear Enterprise Application Archive
+.easm eDrawings File
+.ebd AP Modellbahn Datendatei
+.ebj Error Checking Object Datei
+.ece Oracle Express Dynamic Web Page
+.ecw Enhanced Compressed Wavelet File
+.eda ASR disk image
+.edb Geneological data
+.edd Element Definition document
+.ede EPS disk image
+.edf (unbek.)
+.edl Exercises Developement Language
+.edk KT disk image
+.edq SQ1/SQ2/KS32 disk image
+.edrw eDrawings File
+.eds SQ80 disk image
+.edt Default settings
+.edv VFX-SD disk image
+.eeb Equation editor Button Bar
+.efa ASR Datei
+.efe EPS Datei
+.efg Normal Form Game
+.efk KT Datei
+.efq SQ1/SQ2/KS32 Datei
+.efs SQ80 Datei
+.eft High Resolution Screen Font
+.efv VFX-SD Datei
+.efx Faxdokument
+.efw  ?
+.ega EGA Display font
+.el Lisp Source code
+.elc Lisp Source code
+.elf Executable and Linking Format
+.elm Theme-Pack Datei
+.elt Event List Text
+.emb Embedded bank Datei
+.emd ABT Extended MoDule
+.emf Windows Enhanced Metafile
+.eml E-Mail
+.emlx E-Mail
+.emm Mindmap
+.ems Enhanced Menu System
+.emu Terminal Emulation Datei
+.emz Compressed Enhanced Metafile
+.enc Encoded Datei
+.enc Musik-Datei
+.enc Video-Datei
+.end Arrow-Head Definition Table
+.enff Neutral Format
+.eng Chart Graphics Datei
+.eng Dictionary Engine Datei
+.ens EndNote Stil Datei
+.env Enveloper Macro
+.env Environment Datei
+.epd Publication Datei
+.ephtml Enhanced Perl-parsed HTML
+.epi Dokument
+.eprt eDrawings File
+.eps Encapsulated PostScript
+.epsf Encapsulated PostScript
+.eps2 Level 2 EPS
+.epsi EPS Interchange
+.eqn Equation Datei
+.er1 ERWin Datei
+.erd Entity Relationship Diagram
+.erm Entity Relationship Model
+.err Error Log
+.err Compilation error Datei
+.erx ERWin Datei
+.esh Extended Shell Batch
+.esl Distributable support library
+.esm Elder Scrolls Master
+.esp Elder Scrolls Plugin
+.esps ESPS audio Datei
+.etd EBX Transfer Data File
+.eth Dokument
+.etx Structure Enhanced text
+.eui ESP compacted disk image
+.evt Event Log
+.evy Dokument
+.ewd Text Document
+.ewl Microsoft Encarta document
+.ex3 Device Driver Datei
+.exc Exclude Datei für Optimize
+.exc Exclusion Dictionary Datei
+.exc Source-Code Datei
+.exe Executable
+.exec z/OS REXX-Library
+.exp Saved chat
+.exr OpenEXR
+.ext ASCII binary transfer
+.ext2 EXT2 Image
+.ext3 EXT3 Image
+.ezp Edify.zip
+.f FREEZE
+.f01 Fax document
+.f2r Linear music module
+.f3r Blocked music module
+.f77 FORTRAN 77
+.f96 Faxdokument
+.fac Face graphic
+.faq Frequently Asked Questions
+.far Farandole
+.fas Basic module Datei
+.fav Navigation bar
+.fax FAX Type image
+.fb2 FictionBook
+.fbk Financials Backup
+.fbx 3D Austauschformat
+.fc Spell Check dictionary
+.fcd Virtual CD-ROM Datei
+.fcm Binary Dateipatch
+.fd Declaration Datei
+.fd Field offsets
+.fdb Financials Database
+.fdb font definition block
+.fdf Formular
+.fdw Formular
+.feb Figure Editor Button Bar
+.fem Finite Element Mesh
+.ff Outline Font description
+.ffa find fast Datei
+.fff Fax document
+.fff GUS PnP bank Datei
+.ffl Image Datei
+.ffl fast find Datei
+.ffo fast find Datei
+.fft Final Form Text
+.ffx fast find Datei
+.fh3 Freehand 3 drawing
+.fh4 Freehand 4 drawing
+.fhmx Freehand MX
+.fi Datei Interface
+.fif Fractal Image
+.fig REND386/AVRIL Datei
+.fig FIG image text
+.fig SNES ROM image
+.fil Datei List Object
+.fil Datei template
+.fil Overlay
+.fil file
+.fil file
+.fin Print formatted text
+.fit Datei index table
+.fit Graphic
+.fits CCD camera image
+.fits Flexible Image Transport System
+.fix Patch Datei
+.fky Macro
+.fla Movie
+.flb Format library
+.flc FLIC animation
+.fld Field define module
+.fld Folder
+.flf Delived form
+.flf Driver
+.flf Financials License File
+.fli FLIC Animation 320x200
+.fli Font library
+.fll dynamic link library
+.flm Film Roll
+.flo FlowCharter Datei
+.flp Flower-Project Leecherdatei
+.fls Filelist document
+.flst Transparenzreduzierungsvorgabe
+.flt Filter
+.flt Filter
+.flt Graphics filter
+.flt Graphics filter support Datei
+.flt Music module
+.flt Open Flight Datei
+.flv Flash Video
+.flx Compiled binary Datei
+.fm FrameMaker Document
+.fm Spreadsheet
+.fm1 Spreadsheet
+.fm3 Device driver
+.fm3 Spreadsheet
+.fmb Forms sources
+.fmb Datei Manager button bar
+.fme FMEA Datei
+.fmf Font oder Icon
+.fmk MakeFile
+.fml Mirror list
+.fmo Compiled format
+.fmp Document Datei
+.fmt Csreen format Datei
+.fmt Print Datei
+.fmt Style sheet
+.fmt Textformat für Form
+.fmx Executable form
+.fn3 Font
+.fnd Find applet
+.fnf Notendatei für ForteFree
+.fng Font group
+.fnk FunkTracker
+.fnt Font
+.fnx Inactive font
+.fog Fontographer font
+.fol Saved message folder
+.fon Call log
+.fon Dialing directory
+.fon Font
+.font Font
+.for Form
+.fot Font-related Datei
+.fot Installed TrueType font
+.fp FoxPro
+.fp FileMaker Pro Datei
+.fp1 "Flying Pigs"
+.fp3 FileMaker Pro Datei
+.fp5 FileMaker Pro Datei
+.fp7 FileMaker Pro Datei
+.fpc Catalog Datei
+.fpl Playlisten Datei
+.fpt FileMaker Pro Datei
+.fpt Memo fields
+.fpw Floorplan drawing
+.fpx Kodak FlashPix
+.fr3 Renamed dBaseIII+ form
+.frf Font
+.frg Uncompiled report
+.frk Zip
+.frm Dokument
+.frm Executable Datei
+.frm Formular-Quelldatei
+.frm Formular-Quelldatei
+.frm Merge form
+.frm Symbol Report
+.fro Compiled report
+.frp Formular
+.frs Screen Font Resource
+.frt Report menu
+.frx Form stash Datei
+.frx Report
+.fsf fPrint Audit Tool
+.fsl Formular
+.fsm Sample Datei
+.fst Linkable program
+.fsx Data
+.fsy FSync Document
+.ft Full text index
+.ftb Index Datei
+.ftg full-text search group
+.ftm Font
+.ftp File Transfer Protocol
+.fts full-text search index
+.ftw Dokument
+.fw Firmware
+.fw Datenbank
+.fwb FileWrangler Backup
+.fws FileWrangler Data
+.fx On-Line guide
+.fx4 Pixelkarte
+.fxd Phonebook
+.fxp Compiled source code
+.fxr Fax Received Document
+.fxs Fax Transmit graphic
+.fzb Bank dump Datei
+.fzf Full dump Datei
+.fzv Voice dump Datei
+.g Data chart
+.g64 Disk Image
+.g721 Raw CCITT G.721
+.g723 Raw CCITT G.723
+.g8 Raw Graphics
+.gadget Gadget
+.gal Album
+.gam Fax-Dokument
+.gam Sammlung von Spielerelevanten Daten (Quake Engine)
+.gb Game Boy ROM image
+.gba Game Boy Advance ROM image
+.gbc Game Boy Color ROM image
+.gbl Global definitions
+.gbs Gameboy Sound
+.gbm Gameboy Movie
+.gc1 Lisp source code
+.gc3 Lisp source code
+.gcd CADD Zeichnung
+.gcf Game Cache File
+.gcp Ground Control Point
+.gdb Database Datei
+.gdb Garmin Database
+.gdf Dictionary Datei
+.ged Genealogical data
+.ged Graphic Environment Document
+.ged Graphics editor Datei
+.ged Graphics editor native format
+.gem GEM Metafile
+.gen Application Generator
+.gen Generated text
+.geo Geode
+.geo Euklid DynaGeo
+.GetRight Unfinished-Download
+.gfb Compressed gif image
+.gfc flowchart
+.gfi Graphics Link presentation
+.gft Font
+.gfx Graphics Link presentation
+.gfx Textverarbeitung Protext
+.gfy Got FingerPrints Yet?
+.gg Sega Game Gear ROM image
+.gho Symantec Ghost Image Datei
+.ghs Symantec Ghost Image Datei
+.gib Chart
+.gid global index
+.gif Compuserve Graphics Interchange Format
+.gim Graphics Link presentation
+.giw Presentation
+.gix Graphics Link presentation
+.gkh disk image
+.gks GripKey document
+.gl Animation Datei
+.glm Glim
+.gls Datafile
+.gly Glossary
+.gm6 Game Maker Projekt
+.gmf CGM Graphics
+.gmp Tile map
+.gmr Graphical monitor record
+.gna Graphics Link presentation
+.gno Genealogy Datei
+.gnt Generated executable code
+.gnx Graphics Link presentation
+.goc Goc sorce code
+.goh Goc header
+.gp Geode parameter Datei
+.gp# Guitar Pro Datei (# = 3-5)
+.gpg GNU Privacy Guard-Code
+.gph Graph
+.gpk Program package
+.gpk Spitzenpegeldatei (zu WaveLab)
+.gpp Graph paper application
+.gpx GPS eXchange file
+.gr2 Screen driver
+.gra Datafile
+.gra Graph
+.graphml GraphML
+.grb Shell Monitor
+.grd Image processing grid
+.grf Graph
+.grf Grapher
+.groovy Groovy
+.grp Pictures group
+.grp Group-Datei
+.gry GREY
+.gs1 Presentation
+.gs3 Daten
+.gsd Vector graphic
+.gsm GSM 6.10 audio stream
+.gsp gsp-Datei
+.gsw GraphShow Worksheet
+.gt2 Graoumftracker 2
+.gtk Graoumftracker
+.guide Amigaguide
+.gup Data
+.gus Gustav.Gustavson
+.gvi Video
+.gwp Greetings WorkShop Datei
+.gwy Gwyddion Projekt
+.gwx Graphics Link presentation
+.gwz Graphics Link presentation
+.gvp GEOvison³ Project
+.gxl Graphics library
+.gxt Textdatenbank GTA2 - San Andreas
+.i Intermediate
+.iam Inventor Assembly
+.ian Textdatei
+.iax Bitmap
+.ibm ARCHDOS
+.ica Bitmap graphic
+.ica Citrix-Verbindungsdatei
+.icb Targa bitmap
+.icc Catalog Datei
+.icc Printer Datei
+.icd Drawing Datei
+.icl Icon Library
+.icm Image Color Matching profile
+.icn Icon source code
+.ico Icon
+.ics Scene Datei
+.ics iCalendar Datei
+.id Disk identification Datei
+.idb Intermediate Datei
+.idd Instrument Definition Data (?)
+.ide Project Datei
+.idf MIDI Instrument Definition
+.idif Identification Datei
+.idq Data Query
+.idt Exportierte Windows Installer Datenbank Tabelle
+.idu Austauschdatei
+.idw Vector graphic
+.idw Inventor Drawing
+.idx Index Datei
+.idx Index Datei
+.idx Relational database index
+.idx Relational database index
+.idx Java Applet Cache Index
+.ifd Form
+.iff Interchange File Format (IFF)
+.ifo Information
+.ifo Graphic object layer data
+.ifp Script Datei
+.ifs Compressed fractal image
+.ifs Create executable library
+.ifs System Datei
+.igs Initial Graphics Exchange Specification (IGES)
+.igc Segelflug Logger Datei
+.igf Metafile
+.iif Interchange Datei
+.iii Intel I-Phone compatibel
+.iim Music module
+.ilbm Bitmap
+.ildoc Dokument
+.ili INTERLIS
+.ilk incremental linker
+.im8 Raster graphic
+.ima Image
+.ima DICOM-Bild
+.ima Vector graphic
+.imf MIDI music Datei
+.img DICOM-Bild
+.img Bitmap graphic
+.img kurz für "Image"
+.img Dateiarchiv
+.imp Spreadsheet
+.imq Image presentation
+.ims Create executable library
+.imz Win Image
+.in$ Installationsdatei
+.in3 Input device driver
+.inb Test script
+.inc Include File
+.inc Include File
+.ind Index
+.ind Shared Database Datei
+.indb InDesign Book
+.indd InDesign Document
+.indl InDesign Library
+.indt InDesign Template
+.inf Setup-Informationen
+.inf Type I LaserJet font information
+.info Piktogramm
+.ini Bank setup Datei
+.ini Setup Datei
+.ini Initialisierungsdatei
+.ink Pantone reference fills Datei
+.inl Inline function Datei
+.inp Source code für form,
+.inrs INRS-Telecommunications audio
+.ins Datafile
+.ins Install script
+.ins Installation script
+.ins Instrument Datei
+.ins Instrument music Datei
+.ins Sample
+.ins Sign-up Datei
+.int Interfaced units
+.int Intermediate executable code
+.inx InDesign Interchange
+.inx Index Datei
+.io Compressed archive
+.iob 3D graphics database
+.ioc Organizational chart
+.iof Findit document
+.ion Datei description
+.ipf Interchangeable Preservation Format
+.ipl Pantone Spot reference palette
+.ips International patching system
+.ipt Inventor Part
+.iqf Program Data
+.iqy Internet inquiry
+.iq2 Program Data
+.irs Resource Datei
+.isd Spell checker dictionary
+.ish Compressed archive
+.iso ISO
+.iso ISO 9660 Dateisystem
+.isp Sign-up Datei
+.ist Instrument
+.isu Uninstall script
+.it Impulse Tracker
+.it Settings Datei
+.itc iTunes Covers
+.itf Interface Datei
+.itl iTunes Library
+.iti Impulse Tracker Instrument
+.its Impulse Tracker Sample
+.itz Impulse Tracker zipped
+.iv Open Inventor Datei
+.ivd Microdata dimension or variable-level
+.ivp User subset profile
+.ivt Table or aggregate data
+.ivx Microdata directory
+.iw Presentation flowchart
+.iw Screensaver
+.iwa Text Datei
+.iwc Install Watch document
+.iwm Start Datei
+.iwp Textdokument
+.izt Binary token Datei
+.j2k JPEG2000
+.j62 Ricoh camera Datei
+.jam Java Module
+.jar Java Archive
+.jas Graphic
+.java Source code
+.jbd Datafile
+.jbf Image browser Datei
+.jbx Project Datei
+.jff JPEG image
+.jfif JPEG File Interchange Format
+.jif JPEG image file
+.jisp Java Indexed Serialization Package
+.jmp Discovery chart-to-statistics
+.jn1 Jill of the Jungle data
+.jnb Workbook Datei
+.jnt Journal Viewer File
+.job Vektorgrafik
+.jor Journal
+.jou Journal backup
+.jou Journal backup
+.jp2 JPEG2000
+.jpc JPEG2000
+.jpf JPEG2000 file
+.js JavaScript code
+.jsc Source code
+.jsd Jet Suite document
+.jsk Skin Datei
+.json JavaScript Object Notation
+.jsp JavaServer Page
+.jt Jupiter Tessellation
+.jtf Faxdokument
+.jtk Java ToolKit Datei
+.jw JustWrite
+.jwl JustWrite Library
+.jzz Spreadsheet
+.k LS-Dyna Keyword file
+.k25 Kurzweil 2500
+.k3b K3b Projekt
+.kar karaoke
+.kb Keyboard script
+.kb Program source code
+.kbd Keyboard mapping script
+.kbm Keyboard mapping script
+.kcm K-Cheat Modul
+.kcl Kyoto Common Lisp
+.kdb Keep-in-Mind-Datenbank
+.kex Makro
+.key Datafile
+.key Icon toolbar
+.key Security Datei
+.key Keynote
+.kfp Acrobat Preflight Profil
+.kfx Image
+.kgt KGet
+.kiz Digital postcard
+.kkw K-keywords
+.kml Map
+.kmp KeyMaP
+.kmz Koordinaten
+.ko Linux Kernel Object
+.kpp Toolpad
+.kps Bitmap graphic
+.kqp Native Camera Datei
+.kr1 Sample
+.krz Sample Datei
+.ksf Sample Datei
+.ksp KSpread
+.kwd KWord
+.kwl KWallet-Datei
+.kyb Keyboard mapping
+.kye Game data
+.kys Keyboard Shortcuts
+.l Linker directive Datei
+.l Lex
+.l LISP
+.lab Datafile
+.lab Label-Datei
+.lab Mailing labels
+.lan LAN driver
+.lay Clipart-Datei
+.lay Word Chart layout
+.lbg Label generator data
+.lbk PlotMaker Layoutbuch-Datei
+.lbl Label
+.lbl Label
+.lbl Label
+.lbm Interleaved Bitmap (ILBM)
+.lbo Compiled label
+.lbo MWM-Libero-Projekt
+.lbr LBR-Archiv (LU)
+.lbr Display driver
+.lbr Device library
+.lbt Labels
+.lbx Labels
+.lca LABCAR Assistant-Datei
+.lcf Linker control-Datei
+.lck Lockfile
+.lcl Datafile
+.lcn Lection document
+.lcs Data History Datei
+.lcw Spreadsheet
+.ld Long distance area codes
+.ld1 Overlay-Datei
+.ldb Lock-Datei
+.ldf Library definition-Datei
+.ldf Log Data File
+.ldi LAN driver description file
+.ldif Adressenverzeichnis
+.ldl Library
+.leg Legacy document
+.les System game profiles
+.lev Level-Datei
+.lex Dictionary-Datei
+.lfd Data resource-Datei
+.lfp LaserForms Plus-Datei
+.lft Laser printer font
+.lft Loft-Datei
+.lg Logo procedure definition
+.lgc Application log-Datei
+.lgd Application log-Datei
+.lgo Header and footer logo
+.lgo Lego-Modell-Datei
+.lgo Logo Datei
+.lgo Startup logo
+.lha LHA/LHARC
+.lhs Literate Haskell File
+.lhw LHWARP
+.lib Library
+.library Library
+.lif Logical Interchange data
+.lim LIMIT
+.lin Interactive music sequencing data
+.lin Line type-Datei
+.lis Listing
+.lis SQL-Report
+.lit (Literature)
+.lix Logos library system-Datei
+.lj Textdatei
+.lk Database-Datei
+.lko Linked object
+.ll3 Document-Datei
+.llx Exchange agent
+.lnk Datafile
+.lnk Linker response-Datei
+.lnk Link
+.load z/OS Load-Library
+.loc Locations
+.lock Lock
+.lod Load-Datei
+.log Log
+.log Log-Datei
+.log Logo-Quelltext-Datei
+.logo Combined Logo Mask
+.lok komprimiert
+.lol Lolcode
+.lpc Druckertreiber
+.lpd Helix Nuts and Bolts-Datei
+.lpd LabelPro-Datei
+.lpd LECTURNITY Player-Datei
+.lpi Informationsdatei für Laserdrucker
+.lpj PASSOLO-Projektdatei
+.lps LupoScan
+.lpu PASSOLO-Projektdatei
+.lrc Video phone-Datei
+.lrf Linker response-Datei
+.lrs Language resource-Datei
+.lsf Logos library system-Datei
+.lsl Saved library
+.lsl Script library
+.lso Logic Audio Song/-Dokument
+.lsp LISP
+.lss Tabellenkalkulation
+.lst Keyboard macro
+.lst List-Datei
+.lst Spool-Datei
+.ltm Form
+.lu Library unit-Datei
+.lvl Miner Descent/D2 Level extension
+.lwd Textdokument
+.lwf LuraWave Format
+.lwlo Layered Object-Datei
+.lwob Object-Datei
+.lwp Lotus Word Pro (Teil der Lotus SmartSuite)
+.lwsc Scene-Datei
+.lwz Linguistically enhanced sound
+.lxf Lego Digital Designer-Datei
+.ly Lilypond-Datei
+.lyr Layer-Datei
+.lyx LyX-Datei
+.lzd Difference-Datei für Binarys
+.lzh LH ARC
+.lzs LARC
+.lzs Data-Datei
+.lzw LHWARP
+.m Matlab-file
+.m Objective C
+.m4 M4 Präprozessor
+.m4a Moving Pictures Experts Group 4 Audio
+.m4b Moving Pictures Experts Group 4 Audiobook
+.m4p MPEG4-Audiodatei
+.ma Maya ASCII
+.mab Mozilla Address Book
+.mac MacPaint
+.mac Monkeys Audio Compression
+.mak Makefile
+.mat Matlab Daten Datei
+.mat T-Online Rechnung Online Sicherung
+.mat Verknüpfung mit Microsoft Office Access-Tabelle
+.manifest MANIFEST-Datei
+.mar Microsoft ARchiv
+.mar Mozilla ARchiv
+.map Linker map
+.max Discreet 3D Studio MAX
+.mb Maya Binary
+.mcc Mathcad Configuration File
+.mcd Mathcad Document
+.mcd Minicad
+.mcf Mathcad Fontfile
+.md8 MatchWare Mediator Project
+.mda Microsoft Access
+.mdb Microsoft Data Base
+.mdc Modem Script --- auch "Model Definition *": RTCW/ET Model-Datei
+.mde Microsoft Access
+.mdf Media Descriptor File
+.mdf Master Data File
+.mdf Measurement Data Format File
+.mdi Microsoft Office Document Imaging
+.mdl Hash Animation:Master 3d-Modell
+.mdl (Spieler-)Model
+.mdl Rational Rose Modell
+.mdl MathWorks Simulink Model
+.mds Media Descriptor Image
+.mdx DBase Index-File
+.mell Mellel Dokument
+.mem Ansichtdatei (zu WaveLab)
+.met OS/2 Metafile
+.mfa Multimedia Fusion 2 Applikations-Datei
+.mfw Multimedia Fusion 2 Projekts-Datei
+.mfx Multimedia Fusion 2 Extension
+.mi Model Interface Standard
+.mif Maker Interchange Format
+.minigsf GBA Sound Format
+.miniusf Nintendo 64 Audio-Datei
+.mjf Media Juice File
+.mhk Broderbund Mohawk Archiv
+.mka Matroska Audio
+.mkd Microkernel Database file
+.mkv Matroska Video
+.mm FreeMind-Maps
+.mmap Mindjet MindManager-Maps
+.mmf Samsung & Siemens Handy
+.mmf Microsoft Mail für Windows
+.mml MathML
+.mmm Media Player Multimedia Clip
+.mmm Magix Music Maker
+.mn MuPAD Pro Notebook
+.mnu Menü-Datei
+.mo Machine Object
+.moc MetaObjectCode-Datei
+.mod Module
+.mod Module
+.mop MOPAC
+.mot MOTS - Motorola S-Record File
+.mov Movie
+.mp+ Musepack-Audiodatei
+.mp3 Moving Pictures Experts Group 1/2 Audio Layer 3
+.mp4 Moving Pictures Experts Group 4 Audio & Video
+.mpc Musepack-Audiodatei
+.mpic MWM-Piccolo Projekt-Datei auf dem PDA zum Austausch von Aufmaßen mit MWM-Libero
+.mpp Microsoft Project Plan
+.mpp Musepack-Audiodatei
+.mpq Mo'PaQ, kurz für Mike O'Brien Pack, benannt nach dem Erfinder
+.mpr FileMaker Dictionary
+.mps Max Payne Savegame
+.mps MapSource Datafile
+.mpt Microsoft Project Plan
+.mrc mIRC Scriptdatei
+.mrw Minolta Raw Image
+.ms7 Electronics Workbench Multisim v7 - Schaltplan
+.ms8 Electronics Workbench Multisim v8 - Schaltplan
+.msa MyrScript Datei
+.msc MilcoScan
+.msg Message
+.msi Microsoft Installer
+.msm Microsoft Installer Merge Module
+.msn Microsoft Network Protokoll
+.msp Microsoft Installer Patchdatei
+.mst Microsoft Installer Transformationsdatei
+.msu Microsoft Update
+.mswmm Microsoft Windows Movie Maker Projekt
+.mtm Multitracker Module
+.mus Music
+.mus Musicam
+.mux Musikformat
+.mvf Stop frame file
+.mw Maple-Worksheet
+.mwp Lotus Word Pro Smartmaster
+.mwpp My Webfinder Projekt Package
+.mws Maple-Worksheet
+.myd MySQL Datenbank
+.myi MySQL Datenbank Index
+.myr Musikformat
+.mzt HTML-Vorlage
+.n4d nova 4 drawing
+.n4m nova 4 model
+.n64 Nintendo 64 ROM image
+.nds Nintendo DS ROM image
+.nb Notebook
+.ncd Nero Cover Designer
+.ncf NetWare Command File
+.nef Rohdaten
+.nes NES ROM image
+.nfg Normal Form Game
+.nfo "Info"-Datei
+.nfo MSInfo-Dokument
+.ngp NeoGeo Pocket ROM image
+.ngr NGR Grafic File
+.nhf Nero HFS
+.nif Notation Interchange File Format (NIFF)
+.nir NetInstall Registry file
+.nlm Netware Loadable Module
+.nls LaTeX nomenclatures
+.nmind NovaMind Mindmap
+.nr3 Nero MP3
+.nra Nero Audio
+.nrb Nero Boot
+.nrc Nero Compatible
+.nrd Nero DVD
+.nre Nero CD EXTRA
+.nrg Nero Image
+.nrh Nero Hybrid
+.nri Nero ISO
+.nrm Nero Mixed-Mode-CD
+.nru Nero UDF
+.nrv Nero Video
+.nrw Nero WMA
+.ns1 Netstumbler File
+.nsd Nassi-Shneiderman-Diagramm
+.nsf Nintendo Sound File
+.nsf Notes Storage Facility
+.nspg Nord Stage Program
+.nsv Nullsoft Streaming Video
+.ntf Notes Template File
+.nth Nokia Theme
+.nva E-Animation (NEVA)
+.nvz nova
+.o Object
+.o2c Object 2 See
+.o7o open7x0.org install file
+.obd MS Office Binder File
+.obj Object
+.obml Opera Binary Markup Language
+.oct VIP-Befehlssatz
+.ocx Programmerweiterung
+.odb OpenDocument Database
+.odc OpenDocument Chart
+.odf OpenDocument Formel
+.odg OpenDocument Graphics
+.odi OpenDocument Image
+.odm OpenDocument Master
+.odp OpenDocument Presentation
+.ods OpenDocument Spreadsheet
+.odt OpenDocument Text
+.ofc Open Financial Connectivity
+.off Object File Format
+.ofr OptimFrog
+.oft MS Outlook
+.ofx Open Financial Exchange
+.ogg Ogg
+.ogm Ogg Media
+.okt Oktalyzer
+.old old
+.oma OpenMG Audio
+.omg O&O DiskImage Disk Image
+.one OneNote
+.or# Lotus Organizer Datei
+.orf Olympus Raw File
+.ost MS Outlook
+.otf OpenType Font
+.otg ODoc. Template Drawing
+.oth ODoc. Template HTML
+.otp ODoc. Template Presentation
+.ots ODoc. Template Spreadsheet
+.ott ODoc. Template Text
+.ova Octava Datei
+.ovl Overlay
+.p12 PKI PKCS#12-Format
+.p2v Planungsdatei
+.p65 Satzdatei
+.p81 Leistungsverzeichniss
+.p83 Angebotsaufforderung
+.p84 Angebotsabgabe
+.p85 Nebenangebot
+.p86 Auftragserteilung
+.p88 Nachtrag
+.p89 Rechnung
+.p99 TI99 Programfile
+.p7b PKI PKCS#7-Format
+.p7s PKI PKCS#7-Format
+.pab Papyrus
+.pac Proxy Auto-Config
+.pages Pages
+.pal Palette
+.pap Papyrus
+.par PAR-Wiederherstellungsdatei
+.par2 PAR2-Wiederherstellungsdatei
+.parmlib z/OS-Parameterbibliothek
+.part Partizierte Datei
+.pas Pascal Source Code File
+.pb PureBasic
+.pb Papyrus Base
+.pbf Papyrus Base Formatvorlage
+.pbf Paragon Drive Backup
+.pbi PureBasic-Include
+.pbm Portable Bitmap
+.pc1 Degas (Elite)
+.pc2 Degas (Elite)
+.pc3 Degas (Elite)
+.pcd Photo CD
+.pcp Windows Installer Patch Erstellungs Datei
+.pct Mac Pict
+.pcx Zsoft Paintbrush
+.pbp Sony Playstation Portable ausführbares Archiv
+.pd Pure Data Patch-Datei
+.pdb AportisDoc
+.pdb Microsoft Visual Studio
+.pdd Dateiformat von Adobe PhotoDeluxe
+.pdf Portable Document Format
+.pdf Novell System PrintDef Device Definition File
+.pdi Pinnacle Disc Image
+.pdp Photoshop PDF
+.pdsf Process Data Standard Format
+.pdt IBM iSeries Access Druckerbeschreibung
+.peak Wellenform einer Audiodatei
+.pen io Pen Document
+.pes  ???
+.pf Prefetch file
+.pfb PostScript Font Binary
+.pfm PostScript Font Metric
+.pfr Portable Font Resource
+.pfx PKI PKCS#12-Format
+.pgd Pretty Good Privacy Disk
+.pgn Portable Game Notation
+.pgp Program Parameter
+.pgs Pagestream
+.php PHP Hypertext Preprocessor
+.php3 PHP Hypertext Preprocessor Version 3
+.php4 PHP Hypertext Preprocessor Version 4
+.php5 PHP Hypertext Preprocessor Version 5
+.phps PHP Hypertext Preprocessor Source
+.phtml PHP Hypertext Markup Language
+.pi1 Degas (Elite)
+.pi2 Degas (Elite)
+.pi3 Degas (Elite)
+.pif Programminformationen
+.pisa MWM-Pisa-Projekt
+.pkg 3D Modell
+.pl Perl
+.pl Prolog
+.pla VIP-Mikrobefehlsspeicher
+.pld PhotoLine Document
+.plist Property List
+.plm PL/M
+.pls Playlist
+.plt Plotter Datei
+.plx Perl
+.pm Perl Module
+.pmd Satzdatei
+.pmd PlanMaker Dokument
+.pml Peter Morphose Level
+.png Portable Network Graphics
+.pnm Portable PixMap
+.po Portable Object
+.pos WinHex Positionsdatei
+.pot Portable Object Template
+.pox Poseidon Datei
+.pp Pascal Unit
+.ppa PowerPoint
+.ppe PCBoard Programming Executable
+.ppf iGrafx Image
+.ppf PlayStation Patch File
+.ppi picture editor 400
+.ppl Powerpraise-Lied
+.ppm Portable PixMap
+.ppp Powerpraise-Portfolio
+.pps PowerPoint
+.ppt PowerPoint
+.ppsx PowerPoint
+.ppz PowerPoint
+.pov POV-Ray
+.pot PowerPoint
+.prg Ausführbares Programm
+.prj ANTARES/BKI Energieplaner
+.prj Knorr Bremse
+.prj CodeVision-AVR
+.prj Hash Animation:Master-PRJ
+.PrjPCB PCB-Project
+.prl Pearl Source Code Datei
+.prn Postscript
+.pro IDL source File
+.pro Prolog
+.pro Qt-Projekt-Datei
+.proclib z/OS Procedurenbibliothek
+.properties Java-Properties-Datei
+.prs Harvard Graphics
+.prt Pro/E part
+.prt Unigraphics Part File
+.prtdot Part Template
+.prz Lotus Freelance Graphics
+.ps Postscript
+.psb Adobe Photoshop Big
+.psd Adobe Photoshop
+.psf GoPal Navigator
+.psp Corel Paint Shop Pro-Bild
+.pst Personal Store
+.psw Dokument
+.ptb Power Tab Score
+.ptf Pro Tools File
+.ptm PolyTracker Module
+.ptn Paperport
+.pts Pro Tools Session
+.pub Dokument
+.pwl PassWordList
+.pxl Tabelle
+.pxr Pixar
+.py Python
+.pyc Python compiled
+.pyd Python Dynamic Module
+.qb QuickBASIC
+.qdb CUEcards Datenbank
+.qcd Quicknote encrypted text
+.qdr Q-Dir Document text
+.qti QuickTime Image
+.qti QtiPlot
+.qtl QuickTime Media Link
+.qua AntiVir / Avira Quarantäne
+.qxd QuarkXPress Document:
+.qxl QuarkXPress Library:
+.qxp QuarkXPress Project:
+.qxt QuarkXPress Template:
+.R R-Script-Datei
+.ram Real Media
+.ras SUN Raster Image
+.rar RAR-Archiv
+.rb Ruby
+.rbs ReBirth Songfile
+.rc Resource script
+.rcy Rex
+.ren Renewcalc - Datafile
+.res Resource File
+.resx XML Resource File
+.rexx Rexx
+.rex Rex
+.rez Winrez
+.rfl Propellerhead Reason Instrumenten Bibiliothek
+.rgb Bildformat von Silicon Graphics
+.rgo RepliGo Virtual Print File
+.rk WinRK Kompressionsformat
+.rle Run Length Encoded BMP
+.rm Real Media
+.rmvb Real Media
+.roq id Software-Video
+.rp RealPix Clip
+.rpl Eidos Replay Movies
+.rpm RedHat Package Manager
+.rps Propellerhead Reason Public(nicht bearbeitbare) Song Datei
+.rpt Report
+.rns Propellerhead Reason Locale(bearbeitbare) Song Datei
+.rsdf RS Downloader File
+.rsr Structure
+.rt RealText Clip
+.rt3 RagTime-Dokument
+.rta Raster Transformation Assembler
+.rtd RagTime Document
+.rte Route file
+.rtf Rich Text Format
+.rts RagTime-Vorlage
+.rtt RagTime Template
+.rx2 Rex
+.s Assembler Quellcode
+.s3 Motorola S-Record
+.s3d Simply 3d
+.s3m ScreamTracker 3
+.s3z ScreamTracker 3 zipped
+.s7i Seed7 Includedatei
+.sab Binäre ACIS-Datei, 3D-CAD-Kern Format
+.sam Lotus AmiPro (heute Lotus Word Pro)
+.sami Synchronized Accessible Media Interchange
+.sar Service-Archiv
+.sar System-Architekt
+.sat Text ACIS-Datei, 3D-CAD-Kern Format
+.sav SPSS Datensatz
+.sav Game Score Save
+.sbd Superbase Tabellendefinition
+.sbf Superbase File
+.sbf Su-Bi File
+.sbp Superbase Programmdatei
+.sbq Superbase Query
+.sbu Superbase Update
+.sbv Superbase Formular
+.sb! Superbase Sperrdatei
+.sch Schema
+.sch Schematic
+.SchDOC Schematic Document
+.sci ScrambleIt
+.scm Kompiliertes Script GTA
+.scn Screen file format
+.scr Screensaver
+.sd2 Sounddesigner II
+.sd7 Seed7 Programm
+.sdb StarBase-Datenbank
+.sdc StarOffice Tabelle
+.sdc DeliveryClient Download
+.sde Steganos-Safedatei
+.sdf Spatial Data File
+.sdw StarOffice Writer
+.sem Semaphore-Datei
+.sff Mugen-Sprite Datei
+.sft SFT-Loader-Datei
+.sfv Simple File Verification
+.sfw Seattle FilmWorks Datei
+.sfx Audiodatenarchiv
+.sgb Super Game Boy ROM Image
+.sgp Save Game Patcher Table
+.sh Shell-Skript
+.sh1 Shop - Datenbankdatei
+.sh2 Shop - Datenbankdatei
+.shn Shorten
+.shp Shapefile
+.shs scrap-Datei
+.shtm HTML Document
+.shtml HTML Document
+.shx Shapefile-Index
+.sib Notensatz
+.sid MrSID
+.sik Sicherungskopie
+.sis Symbian Installationsdatei
+.sit Dateiarchiv
+.skd Autodesk Autosketch
+.skf Autodesk Autosketch
+.sl Shared Library
+.sla Scribus LAyout
+.sldasm SolidWorks-Assembly
+.sldbomtbt SolidWorks-Bill of Materials
+.slddrw SolidWorks-Drawing
+.sldholtbt SolidWorks-Hole Table
+.sldlfp SolidWorks-Library Feature Part
+.sldprt SolidWorks-Part
+.sldrevtbt SolidWorks-Revision Table
+.sldwldtbt SolidWorks-Weldment Cut List
+.sle Steganos-Safedatei
+.sle Sisulizer Exchange Package
+.slk SYLK
+.sln MS Visual Studio solution files
+.slp Sisulizer Project
+.smc SNES ROM image
+.smd Sega Mega Drive ROM image
+.smi Synchronized Accessible Media Interchange
+.sms Sega Master System ROM image
+.sng SongBeamer Lied
+.snp Snapshot
+.so Shared Object
+.spl Spell
+.spx speex
+.sql Structured Query Language
+.sqm Software Quality Metrics
+.sqx UnSqueez
+.src Source
+.srf Surface
+.srt SubRipper Subtitle Information
+.ss MADSPACK 2.0
+.ssa SubStation Alpha
+.sta SWIFT Tagesauszüge
+.stb Named plot style table
+.stc XML Calc Template
+.std XML Draw Template
+.stg Simple Text Gateway
+.sti XML Impress Template
+.stl Stereolithografie Format
+.stm Scream Tracker Module
+.stp STEP
+.stt SCHEMA ST4 Transformation
+.stw XML Writer Template
+.sty LaTeX Style
+.sub Subchanneldaten
+.suo Visual Studio Solution User Options
+.sv Schichtenverzeichnis
+.svg Scalable Vector Graphics
+.svgz SVG zipped
+.swc SNES ROM image
+.swf Small Web Format
+.swp Swap
+.swp Swap
+.sxc XML Calc
+.sxd XML Draw
+.sxg XML Global
+.sxi XML Impress
+.sxm XML Math
+.sxp StrokeIt Export
+.sxw XML Writer
+.sys Systemdatei
+.sza HiCAD neXt
+.t65 Pagemaker 6.5 Template
+.tao Track At Once
+.tar Tape Archiver
+.tbz2 .tar.bz2
+.tba PASSOLO-Übersetzungspaket
+.tbalic500 PASSOLO-Übersetzungspaket
+.tbk TheBat! E-Mail-Sicherungsdatei
+.tbu PASSOLO-Übersetzungspaket
+.tbulic500 PASSOLO-Übersetzungspaket
+.tbulic600 PASSOLO-Übersetzungspaket
+.tc TrueCrypt verschlüsselte Datei
+.tct TurboCad Template
+.tcw TurboCad für Windows
+.ter Terrain
+.tex TeX-SourceLaTeX-Source
+.texi Texinfo-Quelltext
+.text Textdatei
+.tff TansForm Formular
+.tfw Tiff-World-File
+.tga TrueVision Targa
+.tgc Terragen 2 Clipdatei
+.tgd Terragen 2 Datei
+.tgw Terragen World File
+.tgz .tar.gz
+.theme Theme
+.thm Thumbnail
+.tib True Image
+.tmd TextMaker Dokument
+.tmp Temporäre Datei
+.tmpl Template
+.tmw Translation Memory
+.tmx Translation Memory eXchange
+.toc Table of Contents
+.torrent Torrent
+.tos Ausführbares Programm
+.tpl Preps Template
+.tps Topspeed Data File
+.tpu Turbo Pascal Unit
+.trc Trace Log
+.trk Tracklog file
+.truhe tansCrypt Truhe
+.ts Transport Stream
+.tsp TAPI Service Provider
+.tsv Tab-Separated Values
+.ttc TrueType Collection
+.ttf TrueType Font
+.ttp TOS Takes Parameters
+.ttx Bilinguale Übersetzungsdatei
+.twa Absatzformat-Datei
+.twd Tempus Word Dokument
+.tws Vorlagendokument
+.txt Text
+.txt MS-Word Text
+.u Unreal
+.u3d Ultimate 3D model file format
+.uc2 UltraCompressor II
+.ucf Xilinx User Constraint File
+.ufo Ulead File for Objects / Unlimited File Ordering
+.uha UHARC Compressed Archive
+.uhs UHS Ultimate Hint System
+.ui Qt User Interface
+.uif Universal Image Format
+.uka Unfall- Kranken- und Absenzenmanagement-System
+.ult Ultra Tracker
+.umod Unreal modification
+.unr Unreal Map
+.uom Update-O-Matic Datei
+.uoml UniqueObject Markup Language
+.urd ultra recall database
+.url Internet Shortcut
+.ut2 UT 2003/2004 Map
+.utx Unreal Texture
+.uu UUncoded Datei
+.uue UUencoded Datei
+.v2i Virtual Volume Image
+.v4p vvvv-patch
+.v64 Nintendo 64 ROM image
+.vb Visual Basic .net
+.vbe Visual Basic Encrypted
+.vbi Visual Basic IntelliCAD
+.vbp Visual Basic Projekt
+.vbs Visual Basic Script
+.vbproj Visual Basic .net Projekt
+.vcf vCard
+.vcproj Visual C++ Projekt
+.vcs vCalendar
+.vda VDA-FS
+.vdf Viren Definitions Datei (virus definition file)
+.vdi Virtual disk image
+.vhd VHDL Source Code File
+.vhd Virtual hard disk
+.vi Virtual Instrument
+.vim Vim-Script
+.vip Virtuelles Projekt
+.vis Vista Grafiks
+.vkf Video Katalog Frage
+.vkv Video Katalog Verzeichnis
+.vlm Virtual Loadable Module
+.vmdk VMware virtual disk file
+.vmf Valve Map File
+.vmo Voice Memo Datei
+.vmt Valve Material File
+.vmx VMware Konfigurationsdatei
+.vob Video Objects
+ .vrs
+Speicherdatei für globale Variablen der Logo (Programmiersprache) .vsd
+Visio .vtf
+Textur-Datei der Source-Engine .vxd
+.wab Windows-Adressbuch
+.war Web Archive
+.war Web Archive
+.wav Microsoft Wave
+.wbk Microsoft Word Backup
+.wbmp Wap-Bitmap
+.webarchive Web-Archiv
+.whtt WinHTTrack Projekt
+.wim Windows Imaging Format
+.wk4 Lotus 123 Datei
+.wks Microsoft Works Datei
+.wl6 Wolfenstein 3D Spieldateien
+.wlb WinLabel
+.wma Windows Media Audio
+.wmf Windows Metafile
+.wmv Windows Media Video
+.wmz Windows Metafile ZIP
+.woa WebObjects Application
+.wpd Word Perfect Document
+.wpf Write Pro File
+.wpg Word Perfect Graphics
+.wps Works Word Processing Files
+.wpt Waypoint file
+.wri Write
+.wrl world
+.ws Worksheet
+.wsp WinShell Project
+.wst WerkStück
+.wv WavPack
+.wyg WYSIWYG-Projekt
+.wzs MS Word Wizard
+.x DirectX Mesh Files
+.x-wav WAV-Datei von Siemens Mobiltelefonen
+.x_b Binäre Parasolid-Datei, 3D-CAD-Kern Format
+.x_t Text Parasolid-Datei, 3D-CAD-Kern Format
+.x1d Folienpräsentation
+.x3f RAW-Fotoformat
+.x32 Text
+.x81 Leistungsverzeichniss
+.x83 Angebotsaufforderung
+.x84 Angebotsabgabe
+.x85 Nebenangebot
+.x86 Auftragserteilung
+.x88 Nachtrag
+.x89 Rechnung
+.xbm X Bitmap
+.xcf GIMP
+.xdt XDT
+.xfm XFrames Model
+.xfi Extracted File Info
+.xhtml Extensible Hypertext Markup Language
+.xla MS Excel
+.xlax MS Excel 2007
+.xlc MS Excel Chart
+.xlcx MS Excel 2007 Chart
+.xlk MS Excel 2007
+.xls MS Excel Sheet
+.xlsx MS Excel 2007 Sheet
+.xlt MS Excel Template
+.xlt MS Excel 2007 Template
+.xm Extended Module
+.xmi Umbrello UML Datei
+.xml Extensible Markup Language
+.xmz Extended Module zipped
+.xpi XPInstall
+.xpm X PixMap
+.xps xps-Format Windows (XPS)
+.xs X-Search
+.xsb Sound Bank, XMLBeans Schema Metadata
+.xsd XML Schema Definition
+.xsl Extensible Stylesheet Language (XSL)
+.xspf XML Shareable Playlist Format
+.xul XML User Interface Language
+.xv2 V-XVL Geometry File (XVL)
+.xv3 P-XVL Geometry File (XVL)
+.xvf Xyngo Video File (XVF)
+.xyz xyz-Format Xmol
+.yink yInk
+.z3d Zanoza 3D File
+.z64 Nintendo 64 ROM image
+.zdl DesignPro-Datei
+.zdp DesignPro-Datei
+.zpj Zend Development Environment Project
+.zt Zer0 Tolerance Source
