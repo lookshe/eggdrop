@@ -43,16 +43,16 @@ while ($line=$log->readline()){
             ($reason=$by)=~s/.*: (.*)\n/$1/;
             $by=~s/:.*\n//i;
             
-            print "$nick kicked by $by on $date at $time reason: $reason\n";
+            print "$nick was kicked by $by on $date at $time reason: $reason\n";
          } elsif ($lastaction=~m/$nick \(.*\) left irc: /i){
             ($message=$lastaction)=~s/^.* $nick \(.*\) left irc: (.*)\n/$1/i;
-            print "$nick quits on $date at $time saying: $message\n";
+            print "$nick has quit on $date at $time saying: $message\n";
          } else {
             if ($lastaction=~m/\)\.$/) {
                ($message=$lastaction)=~s/^.* $nick \(.*\) left #[a-zA-Z0-9]* \((.*)\)\.\n/$1/i;
-               print "$nick parts on $date at $time saying: $message\n";
+               print "$nick has left on $date at $time saying: $message\n";
             } else {
-               print "$nick parts on $date at $time\n";
+               print "$nick has left on $date at $time\n";
             }
          }
          exit 0;

@@ -8,8 +8,7 @@
 #  - first working version
 #
 # 1.1
-#  - remember answers for 60 minutes (doesn't work atm)
-#    mask arguments!
+#  - remember answers for 60 minutes
 
 
 bind pub - \[ proc_decision
@@ -37,7 +36,7 @@ if {[info exists do_dec($nick:$chan)]} {
    }
 }
 
-   set allargs $arguments
+   set allargs [string map {" " _} $arguments]
    set arguments [split $arguments]
    set count 1
    set klammer_count 0
@@ -61,12 +60,13 @@ if {[info exists do_dec($nick:$chan)]} {
    }
    set count 0
    set myrand [rand $klammer_count]
-  # if {[info exists do_dec($allargs)]} {
-  #    set myrand $do_dec($allargs)
-  # } else {
-  #    set do_dec($allargs) $myrand
-  #    timer 60 "unset do_dec($allargs)"
-  # }
+   if {[info exists do_dec($allargs)]} {
+      set myrand $do_dec($allargs)
+      timer 60 "unset do_dec($allargs)"
+   } else {
+      set do_dec($allargs) $myrand
+      timer 60 "unset do_dec($allargs)"
+   }
    set klammer_count 0
    if {$myrand == 0} {
       set output "\[X"
