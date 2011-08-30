@@ -2,6 +2,9 @@
 #
 # todo: little bit better coding style
 #
+# usage: [ ] decision1 [ ] decision2 [ ] desicion3 ...
+#   no need for space after "]" but before "["
+#
 # Changelog:
 # 
 # 1.0
