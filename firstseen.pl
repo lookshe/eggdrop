@@ -9,6 +9,7 @@ if ($#ARGV ne 2){
 my $chan=$ARGV[1];
 my $folder=$ARGV[0];
 my $nick=$ARGV[2];
+$nick=~s/\|/\\\|/g;
 
 my @files;
 
@@ -33,6 +34,12 @@ foreach $line (<file>) {
       }
       if ($line =~ m/^\[00:00(:00)?\] --- /){
          ($date=$line)=~s/^\[00:00(:00)?\] --- (.*)\n/$2/;
+      }
+      if ($line =~ m/^\[[0-9]{2}:[0-9]{2}(:[0-]{2})?\] Nick change: .* -> $nick/i) {
+         ($newnick=$line)=~s/.* Nick change: (.*) -> $nick\n/$1/i;
+         print "$nick was $newnick\n";
+         exec($^X, $0, $folder, $chan, $newnick);
+         exit 0
       }
 }
 }
