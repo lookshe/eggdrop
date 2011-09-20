@@ -2,7 +2,7 @@
 
 use File::ReadBackwards;
 
-if ($#ARGV ne 3){
+if ($#ARGV ne 2){
    print "not enough arguments\n";
    exit 1;
 }
@@ -10,7 +10,6 @@ if ($#ARGV ne 3){
 my $folder=$ARGV[0];
 my $chan=$ARGV[1];
 my $nick=$ARGV[2];
-my $printdate=$ARGV[3];
 
 my @files;
 
@@ -22,6 +21,7 @@ foreach $file (@files) {
 my $date=0;
 my $lastaction;
 my $line;
+my $datecount=0;
 
 $file=~s/\n$//;
 my $log = File::ReadBackwards->new($file) || die $!;
@@ -32,9 +32,11 @@ while ($line=$log->readline()){
       if ($line =~ m/^\[[0-9]{2}:[0-9]{2}(:[0-9]{2})?\] <$nick> /i && $line !~ m/joined #/ ) {
          $date=1;
          ($lastaction=$line)=~s/\n//;
+      } elsif ($line =~ m/^\[00:00(:00)?\] --- /) {
+         ++$datecount
       }
    } else {
-      if ($printdate eq 0){
+      if ($datecount eq 0){
          print "$nick\'s last action: $lastaction\n";
          exit 0;
       } else {

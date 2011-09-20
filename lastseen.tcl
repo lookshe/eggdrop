@@ -10,11 +10,7 @@ proc lastspoke {nick host hand chan arg} {
 if {$arg == ""} {
    return 0
 }
-   if {[onchan $arg $chan] != 1} {
-      set output [split "[exec perl /home/eggdrop/eggdrop/scripts/lastspoke.pl /home/eggdrop/eggdrop/logs [string trimleft $chan #] $arg 1]" "\n"]
-   } else {
-      set output [split "[exec perl /home/eggdrop/eggdrop/scripts/lastspoke.pl /home/eggdrop/eggdrop/logs [string trimleft $chan #] $arg 0]" "\n"]
-   }
+   set output [split "[exec perl /home/eggdrop/eggdrop/scripts/lastspoke.pl /home/eggdrop/eggdrop/logs [string trimleft $chan #] $arg]" "\n"]
    foreach out $output {
       putserv "PRIVMSG $chan :$out";
    }
