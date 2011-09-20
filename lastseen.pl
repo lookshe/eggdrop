@@ -10,7 +10,8 @@ if ($#ARGV ne 2){
 my $chan=$ARGV[1];
 my $folder=$ARGV[0];
 my $nick=$ARGV[2];
-
+$nick=~s/\|/\\\|/g;
+$nick=~s/\\/\\\\/g;
 
 my @files;
 
