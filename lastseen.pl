@@ -29,7 +29,7 @@ my $log = File::ReadBackwards->new($file) || die $!;
 while ($line=$log->readline()){
 #   $line=$log->readline();
    if ($date eq 0){
-      if ($line =~ m/^\[[0-9]{2}:[0-9]{2}(:[0-9]{2})?\] $nick /i && $line !~ m/joined #/ ) {
+      if ($line =~ m/^\[[0-9]{2}:[0-9]{2}(:[0-9]{2})?\] (Nick change:)? $nick /i && $line !~ m/joined #/ ) {
          $date=1;
          $lastaction=$line;
       }
@@ -38,7 +38,8 @@ while ($line=$log->readline()){
          ($date=$line)=~s/^\[00:00(:00)?\] --- (.*)\n/$2/;
          ($time=$lastaction)=~s/(.*)\[([0-9]{2}:[0-9]{2}(:[0-9]{2})?)\](.*)\n/$2/;
          $l=9+length($nick);
-         if ($lastaction=~m/^.{$l}kicked/){
+         $k=12+length($nick);
+         if ($lastaction=~m/^.{$l}kicked/ || $lastaction=~m/.{$k}kicked/){
             ($by=$lastaction)=~s/^\[[0-9]{2}:[0-9]{2}(:[0-9]{2})?\] $nick kicked from #.* by //i;
             ($reason=$by)=~s/.*: (.*)\n/$1/;
             $by=~s/:.*\n//i;
@@ -47,6 +48,9 @@ while ($line=$log->readline()){
          } elsif ($lastaction=~m/$nick \(.*\) left irc: /i){
             ($message=$lastaction)=~s/^.* $nick \(.*\) left irc: (.*)\n/$1/i;
             print "$nick has quit on $date at $time saying: $message\n";
+         } elsif ($lastaction=~m/Nick change: $nick /i) {
+            ($newnick=$lastaction)=~s/^.*Nick change: $nick -> (.*)\n/$1/i;
+            print "$nick changed his name to $newnick on $date at $time\n";
          } else {
             if ($lastaction=~m/\)\.$/) {
                ($message=$lastaction)=~s/^.* $nick \(.*\) left #[a-zA-Z0-9]* \((.*)\)\.\n/$1/i;
