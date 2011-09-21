@@ -44,11 +44,11 @@ if ($url !~ m/Special:Search/) {
    my $table = $res->{'table'};
    my $isDis = 0;
 
-   if ($$table[1] !~ m/$ARGV[0]/i && $#$table == 1) {
+   if ($#$table > 0) {
       foreach (@$img) {
 #print "$_\n";
 #         if ($_ =~ m/^http:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/thumb\/.*\/.*\/Disambig/) {
-         if ($_ =~ m/Disambig/) {
+         if ($_ =~ m/Disambig/i) {
             $isDis = 1;
             last;
          }
