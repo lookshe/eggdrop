@@ -30,7 +30,7 @@ my $log = File::ReadBackwards->new($file) || die $!;
 while ($line=$log->readline()){
 #   $line=$log->readline();
    if ($date eq 0){
-      if ($line =~ m/^\[[0-9]{2}:[0-9]{2}(:[0-9]{2})?\] (Nick change:)? $nick /i && $line !~ m/joined #/ ) {
+      if ($line =~ m/^\[[0-9]{2}:[0-9]{2}(:[0-9]{2})?\]( Nick change:)? $nick /i && $line !~ m/joined #/ ) {
          $date=1;
          $lastaction=$line;
       }
