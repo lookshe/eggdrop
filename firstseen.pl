@@ -23,12 +23,12 @@ my $line;
 
 open(file, $file) or die("Could not open file $file");
 foreach $line (<file>) {
-      if ($line =~ m/^\[[0-9]{2}:[0-9]{2}(:[0-]{2})?\] (Action: )?<?$nick>? /i) {
+      if ($line =~ m/^\[[0-9]{2}:[0-9]{2}(:[0-9]{2})?\] (Action: )?<?$nick>? /i) {
          if ($date =~ /^irgendwas$/) {
             print "$nick belongs to inventory\n";
             exit 0;
          } else {
-            ($time=$line)=~s/(.*)([0-9]{2}:[0-9]{2}(:[0-9]{2})?)(.*)\n/$2/;
+            ($time=$line)=~s/([^:]*)([0-9]{2}:[0-9]{2})(:[0-9]{2})?(.*)\n/$2/;
             print "$nick was first seen on $date at $time\n";
             exit 0;
          }
