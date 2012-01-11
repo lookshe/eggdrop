@@ -10,9 +10,10 @@ if ($#ARGV ne 2){
 my $folder=$ARGV[0];
 my $chan=$ARGV[1];
 my $nick=$ARGV[2];
-$nick=~s/\\/\\\\/g;
-$nick=~s/\|/\\\|/g;
-$nick=~s/\^/\\\^/g;
+my $snick=$nick;
+$snick=~s/\\/\\\\/g;
+$snick=~s/\|/\\\|/g;
+$snick=~s/\^/\\\^/g;
 
 my @files;
 
@@ -32,7 +33,7 @@ my $log = File::ReadBackwards->new($file) || die $!;
 while ($line=$log->readline()){
 #   $line=$log->readline();
    if ($date eq 0){
-      if ($line =~ m/^\[[0-9]{2}:[0-9]{2}(:[0-9]{2})?\] <$nick> /i && $line !~ m/joined #/ ) {
+      if ($line =~ m/^\[[0-9]{2}:[0-9]{2}(:[0-9]{2})?\] <$snick> /i && $line !~ m/joined #/ ) {
          $date=1;
          ($lastaction=$line)=~s/\n//;
       } elsif ($line =~ m/^\[00:00(:00)?\] --- /) {
