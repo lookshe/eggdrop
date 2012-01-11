@@ -12,6 +12,7 @@ my $chan=$ARGV[1];
 my $nick=$ARGV[2];
 $nick=~s/\\/\\\\/g;
 $nick=~s/\|/\\\|/g;
+$nick=~s/\^/\\\^/g;
 
 my @files;
 

@@ -17,6 +17,7 @@ set url_length 80
 package require http 2.3
 
 bind pubm - "*" scan_text
+bind act - "*" scan_text
 
 # -----------------------------------------------------------------------------
 # Name    : scan_text
