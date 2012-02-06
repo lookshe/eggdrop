@@ -68,7 +68,7 @@ if ($found == 0) {
          if ($$list[$i] =~ /^.$type.+/i) {
             last;
          }
-         if ($$list[$i] !~ /^.$type$/i & $$list[$i] !~ /^Next matched file extensions?$/) {
+         if ($$list[$i] !~ /^.$type$/i && $$list[$i] !~ /^Next matched file extensions?$/) {
             print ".$type is $$list[$i]\n";
             $found = 1;
          }
