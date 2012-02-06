@@ -15,6 +15,38 @@
 
 
 bind pub - \[ proc_decision
+bind pub - !zufall proc_zufall
+bind pub - !random proc_zufall
+
+proc proc_zufall {nick host hand chan arguments} {
+   global do_dec
+   if {[info exists do_dec($nick:$chan)]} {
+      set act_do_dec $do_dec($nick:$chan)
+      if {$act_do_dec < 3} {
+         incr act_do_dec
+         set do_dec($nick:$chan) $act_do_dec
+      } else {
+         putserv "NOTICE $nick :no flooding!"
+         return 0
+      }
+   } else {
+      set do_dec($nick:$chan) 1
+      timer 10 "unset do_dec($nick:$chan)"
+   }
+   if {$arguments == ""} {
+      set arguments 0
+   }
+   if {![string is integer $arguments]} {
+      set arguments 0
+   }
+   set arg $arguments
+   set myran 0
+   if {$arg == 0} {
+      set arg 6
+   }
+   set myran [expr [rand $arg] + 1]
+   putserv "PRIVMSG $chan :Der Würfel sagt: $myran ($arg)"
+}
 
 proc proc_decision {nick host hand chan arguments} {
 
