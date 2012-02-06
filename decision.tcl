@@ -41,7 +41,7 @@ proc proc_zufall {nick host hand chan arguments} {
    }
    set arg $arguments
    set myran 0
-   if {$arg == 0} {
+   if {$arg <= 0} {
       set arg 6
    }
    set myran [expr [rand $arg] + 1]
