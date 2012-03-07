@@ -22,18 +22,25 @@ if (defined $result) {
    my $newline = "";
    my $isDis = 0;
    my $ln = 0;
+   my $comment = 0;
    foreach my $line (@lines) {
+#print "$line\n";
       $line =~ s/<!--.*-->//g;
+      $line=~ s/^}}//g;
+      $line=~ s/^\]\]//g;
       $line=~ s/^\s*//;
       $line=~ s/\s*$//;
-      if ($line && $line =~ m/^\* / && $ln < 3) {
+      $comment = 1 if $line =~ m/^<!--$/;
+      $comment = 0 if $line =~ m/^-->$/;
+      if ($line && $line =~ m/^\* /) {
          push(@newlines, $newline);
          push(@newlines, $line);
          $newline = "";
-         $isDis = 1;
+         $isDis = 1 if $ln < 3;
       } elsif ($line) {
          $newline = "$newline$line ";
          $ln++;
+      } elsif ($comment) {
       } else {
          push(@newlines, $newline);
          $newline = "";
@@ -41,28 +48,31 @@ if (defined $result) {
    }
    push(@newlines, $newline);
    $ln = 0;
+   my $lst = 0;
    foreach my $line (@newlines) {
-      $line=~ s/{{.*}}//g;
+      $line =~ s/<!--.*-->//g;
+      $line=~ s/.*}}//g;
       $line=~ s/^\s*//;
       $line=~ s/\s*$//;
       if ($line !~ m/^\s*$/) {
          if ($isDis) {
             if ($line =~ m/^\* /) {
+               last if $ln == 3;
+               $lst = 1 if $ln == 2;
                print "$line\n";
                $ln++;
-               last if $ln == 3;
             }
          } else {
             $line = decode_entities($line);
             #$line =~ s/\([^\(\)]*\)||\[[^\[\]]*\]//g;
-            $line =~ s/\[\[([^\]]*)\]\]/$1/g;
+            $line =~ s/\[\[([^|\]]*\|)?([^\]]*)\]\]/$2/g;
             $line =~ s/\'([^\']*)\'/$1/g;
             $line =~ s/\[\s*\]//g;
             $line =~ s/\(\s*\)//g;
             $line =~ s/\[\s*\]//g;
             $line =~ s/\(\s*\)//g;
             #$line = strip_tags($line);
-            $line =~ s/<ref>[^<]*<\/ref>//g;
+            $line =~ s/<ref[^>]*>[^<]*<\/ref>//g;
             $line =~ s/\s+/ /g;
             $line =~ s/\s([,.\?!])/$1/g;
             if ($line =~ m/.{448}.*/) {
@@ -75,7 +85,7 @@ if (defined $result) {
          }
       }
    }
-   if ($isDis) {
+   if ($isDis && $lst) {
       print "For more see http://$lang.wikipedia.org/wiki/$ARGV[0]\n";
    }
 } else {
