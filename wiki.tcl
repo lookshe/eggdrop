@@ -23,7 +23,7 @@ if {$arg == ""} {
    return 0
 }
 
-   set output [split "[exec perl /home/eggdrop/eggdrop/scripts/wiki.pl \"$arg\" de]" "\n"]
+   set output [split "[exec perl /home/eggdrop/eggdrop/scripts/wiki2.pl \"$arg\" de]" "\n"]
    foreach out $output {
       putserv "PRIVMSG $chan :$out";
    }
@@ -41,7 +41,7 @@ if {$arg == ""} {
    return 0
 }
 
-   set output [split "[exec perl /home/eggdrop/eggdrop/scripts/wiki.pl $arg en]" "\n"]
+   set output [split "[exec perl /home/eggdrop/eggdrop/scripts/wiki2.pl $arg en]" "\n"]
    foreach out $output {
       putserv "PRIVMSG $chan :$out";
    }

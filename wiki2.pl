@@ -2,99 +2,82 @@
 
 #use strict;
 #use warnings;
-use Web::Scraper;
-use URI;
+use WWW::Wikipedia;
 use HTML::Entities;
-use Encode;
-use URI::Escape;
-use LWP::UserAgent;
+use HTML::StripTags qw(strip_tags);
 
-my $scrap;
+binmode(STDOUT, ":utf8");
 
 my $lang = $ARGV[1];
 if (!$lang) {
    $lang = "de";
 }
-my $wikiurl = "http://$lang.wikipedia.org/wiki/Special:Search?search=$ARGV[0]&go=Go";
 
-my $ua = new LWP::UserAgent;
-my $req = HTTP::Request->new('GET', $wikiurl);
-my $res = $ua->request($req);
-my $url = $res->request->uri;
-my $origurl = $url;
-$url =~ s/.*\/wiki\///;
+my $wiki = WWW::Wikipedia->new( language => $lang);
 
-binmode(STDOUT, ":utf8");
-
-if ($url !~ m/Special:Search/) {
-#artikel
-
-   $scrap = scraper {
-      process '//div[@id="bodyContent"]/p', 'text[]' => 'TEXT';
-      process '//img', 'img[]' => '@src';
-      process '//div[@id="bodyContent"]/ul/li', 'list[]' => 'TEXT';
-      process '//table/tr/td', 'table[]' => 'TEXT';
-   };
-   $url = URI->new($wikiurl);
-
-   my $res = $scrap->scrape($url);
-   my $text = $res->{'text'};
-   my $img = $res->{'img'};
-   my $list = $res->{'list'};
-   my $table = $res->{'table'};
+my $result = $wiki->search( $ARGV[0] );
+if (defined $result) {
+   my @lines = split('\n', $result->text());
+   my @newlines;
+   my $newline = "";
    my $isDis = 0;
-
-   if ($$table[1] !~ m/$ARGV[0]/i && $#$table == 1) {
-      foreach (@$img) {
-#print "$_\n";
-         if ($_ =~ m/Disambig/) {
-            $isDis = 1;
+   my $ln = 0;
+   foreach my $line (@lines) {
+      $line =~ s/<!--.*-->//g;
+      $line=~ s/^\s*//;
+      $line=~ s/\s*$//;
+      if ($line && $line =~ m/^\* / && $ln < 3) {
+         push(@newlines, $newline);
+         push(@newlines, $line);
+         $newline = "";
+         $isDis = 1;
+      } elsif ($line) {
+         $newline = "$newline$line ";
+         $ln++;
+      } else {
+         push(@newlines, $newline);
+         $newline = "";
+      }
+   }
+   push(@newlines, $newline);
+   $ln = 0;
+   foreach my $line (@newlines) {
+      $line=~ s/{{.*}}//g;
+      $line=~ s/^\s*//;
+      $line=~ s/\s*$//;
+      if ($line !~ m/^\s*$/) {
+         if ($isDis) {
+            if ($line =~ m/^\* /) {
+               print "$line\n";
+               $ln++;
+               last if $ln == 3;
+            }
+         } else {
+            $line = decode_entities($line);
+            #$line =~ s/\([^\(\)]*\)||\[[^\[\]]*\]//g;
+            $line =~ s/\[\[([^\]]*)\]\]/$1/g;
+            $line =~ s/\'([^\']*)\'/$1/g;
+            $line =~ s/\[\s*\]//g;
+            $line =~ s/\(\s*\)//g;
+            $line =~ s/\[\s*\]//g;
+            $line =~ s/\(\s*\)//g;
+            #$line = strip_tags($line);
+            $line =~ s/<ref>[^<]*<\/ref>//g;
+            $line =~ s/\s+/ /g;
+            $line =~ s/\s([,.\?!])/$1/g;
+            if ($line =~ m/.{448}.*/) {
+               $line =~ s/^(.{448}).*$/$1/;
+               #$line =~ s/^(.*[\.!\?])[^\.!\?]*$/$1 (...)/;
+               $line =~ s/^(.*[\.!\?]) [^\.!\?]*$/$1 (...)/;
+            }
+            print "$line\n";
             last;
          }
       }
    }
-   if (!$isDis) {
-      $text = decode_entities($$text[0]);
-      $text =~ s/\([^\(\)]*\)||\[[^\[\]]*\]//g;
-      $text =~ s/\([^\(\)]*\)||\[[^\[\]]*\]//g;
-      $text =~ s/\([^\(\)]*\)||\[[^\[\]]*\]//g;
-      $text =~ s/\([^\(\)]*\)||\[[^\[\]]*\]//g;
-      $text =~ s/\s+/ /g;
-      $text =~ s/\s([,.\?!])/$1/g;
-
-      if ($text =~ m/.{448}.*/) {
-         $text =~ s/^(.{448}).*$/$1/;
-         $text =~ s/^(.*[\.!\?])[^\.!\?]*$/$1 (...)/;
-      }
-
-      print $text, "\n";
-   } else {
-      for ($count = 0; $count < 3 && $count <= $#$list; $count++) {
-         print "$$list[$count]\n";
-      }
-      print "For more see $origurl\n";
+   if ($isDis) {
+      print "For more see http://$lang.wikipedia.org/wiki/$ARGV[0]\n";
    }
-
 } else {
-#kein artikel
-
-   $scrap = scraper {
-      process '//div[@class="searchresult"]', 'text[]' => 'TEXT';
-      process '//ul[@class="mw-search-results"]/li/a', 'href[]' => '@href';
-   };
-   $url = URI->new($wikiurl);
-
-   my $res = $scrap->scrape($url);
-   if (keys(%$res)) {
-      my $text = $res->{'text'};
-      my $href = $res->{'href'};
-      my $result = "";
-
-      for ($count = 0; $count < 5 && $count <= $#$text; $count++) {
-         $result = ($result?"$result || ":"").$$href[$count], "\n";
-      }
-      print "$result\n";
-   } else {
-      print "No matches with $ARGV[0]\n";
-   }
+   print "No matches with $ARGV[0]\n";
 }
