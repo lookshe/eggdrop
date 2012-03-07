@@ -32,7 +32,7 @@ if (defined $result) {
       $line=~ s/\s*$//;
       $comment = 1 if $line =~ m/^<!--$/;
       $comment = 0 if $line =~ m/^-->$/;
-      if ($line && $line =~ m/^\*\s?/) {
+      if ($line && $line =~ m/^\*\s?/ && $ln < 4) {
          push(@newlines, $newline);
          push(@newlines, $line);
          $newline = "";
@@ -51,10 +51,11 @@ if (defined $result) {
    my $lst = 0;
    foreach my $line (@newlines) {
       $line =~ s/<!--.*-->//g;
-      $line=~ s/.*}}//g;
+      $line=~ s/^.*}}//g;
+      $line=~ s/^[^\[]*\]\]//g;
       $line=~ s/^\s*//;
       $line=~ s/\s*$//;
-      if ($line !~ m/^\s*$/) {
+      if ($line !~ m/^\s*$/ && $line !~ m/^{{Infobox/) {
          $line = decode_entities($line);
          #$line =~ s/\([^\(\)]*\)||\[[^\[\]]*\]//g;
          $line =~ s/\[\[([^|\]]*\|)?([^\]]*)\]\]/$2/g;
