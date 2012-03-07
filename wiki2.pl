@@ -14,6 +14,7 @@ if (!$lang) {
    $lang = "de";
 }
 my $found = 0;
+my $up = 0;
 my $result;
 
 while ($found < 5) {
@@ -29,7 +30,12 @@ while ($found < 5) {
          break;
       }
    } else {
-      break;
+      if ($up == 0) {
+         $query = uc $query;
+         $up = 1;
+      } else {
+         $query = lc $query;
+      }
    }
 }
 if (defined $result) {
