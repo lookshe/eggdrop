@@ -17,7 +17,7 @@ my $wiki = WWW::Wikipedia->new( language => $lang);
 
 my $result = $wiki->search( "$ARGV[0]" );
 if (defined $result) {
-   my @lines = split('\n', $result->text());
+   my @lines = split('\n', $result->text_basic());
    my @newlines;
    my $newline = "";
    my $isDis = 0;
@@ -26,17 +26,17 @@ if (defined $result) {
    foreach my $line (@lines) {
 #print "$line\n";
       $line =~ s/<!--.*-->//g;
-      $line=~ s/^}}//g;
+      #$line=~ s/^}}//g;
       $line=~ s/^\]\]//g;
       $line=~ s/^\s*//;
       $line=~ s/\s*$//;
       $comment = 1 if $line =~ m/^<!--$/;
       $comment = 0 if $line =~ m/^-->$/;
-      if ($line && $line =~ m/^\* /) {
+      if ($line && $line =~ m/^\*\s?/) {
          push(@newlines, $newline);
          push(@newlines, $line);
          $newline = "";
-         $isDis = 1 if $ln < 3;
+         $isDis = 1 if $ln < 4;
       } elsif ($line) {
          $newline = "$newline$line ";
          $ln++;
@@ -55,26 +55,25 @@ if (defined $result) {
       $line=~ s/^\s*//;
       $line=~ s/\s*$//;
       if ($line !~ m/^\s*$/) {
+         $line = decode_entities($line);
+         #$line =~ s/\([^\(\)]*\)||\[[^\[\]]*\]//g;
+         $line =~ s/\[\[([^|\]]*\|)?([^\]]*)\]\]/$2/g;
+         $line =~ s/\'([^\']*)\'/$1/g;
+         $line =~ s/\[\s*\]//g;
+         $line =~ s/\(\s*\)//g;
+         $line =~ s/\[\s*\]//g;
+         $line =~ s/\(\s*\)//g;
+         #$line = strip_tags($line);
+         $line =~ s/<ref[^>]*>[^<]*<\/ref>//g;
+         $line =~ s/\s+/ /g;
+         $line =~ s/\s([,.\?!])/$1/g;
          if ($isDis) {
-            if ($line =~ m/^\* /) {
-               last if $ln == 3;
-               $lst = 1 if $ln == 2;
+            if ($line =~ m/^\*\s?/) {
+               last if ($ln == 3) && ($lst = 1);
                print "$line\n";
                $ln++;
             }
          } else {
-            $line = decode_entities($line);
-            #$line =~ s/\([^\(\)]*\)||\[[^\[\]]*\]//g;
-            $line =~ s/\[\[([^|\]]*\|)?([^\]]*)\]\]/$2/g;
-            $line =~ s/\'([^\']*)\'/$1/g;
-            $line =~ s/\[\s*\]//g;
-            $line =~ s/\(\s*\)//g;
-            $line =~ s/\[\s*\]//g;
-            $line =~ s/\(\s*\)//g;
-            #$line = strip_tags($line);
-            $line =~ s/<ref[^>]*>[^<]*<\/ref>//g;
-            $line =~ s/\s+/ /g;
-            $line =~ s/\s([,.\?!])/$1/g;
             if ($line =~ m/.{448}.*/) {
                $line =~ s/^(.{448}).*$/$1/;
                #$line =~ s/^(.*[\.!\?])[^\.!\?]*$/$1 (...)/;
