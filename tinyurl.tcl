@@ -69,8 +69,10 @@ foreach act_arg $arg {
 
       if {([string match "*youtube*watch*" $url] == 1)} {
             set title [exec perl -e "use URI::Title;print URI::Title::title(\"$url\");"]
-            set title [string range $title 0 end-10]
-            putserv "PRIVMSG $chan :\002Youtube\002: $title (Video by \002$nick\002)"
+            if {([string match "* - YouTube" $title] == 1)} {
+               set title [string range $title 0 end-10]
+               putserv "PRIVMSG $chan :\002Youtube\002: $title (URL by \002$nick\002)"
+            }
       }
    }
 }
