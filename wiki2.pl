@@ -8,14 +8,30 @@ use HTML::StripTags qw(strip_tags);
 
 binmode(STDOUT, ":utf8");
 
+my $query = $ARGV[0];
 my $lang = $ARGV[1];
 if (!$lang) {
    $lang = "de";
 }
+my $found = 0;
+my $result;
 
-my $wiki = WWW::Wikipedia->new( language => $lang);
-
-my $result = $wiki->search( "$ARGV[0]" );
+while ($found < 5) {
+   $found++;
+   my $wiki = WWW::Wikipedia->new( language => $lang);
+   $result = $wiki->search( "$query" );
+   if (defined $result) {
+      my @tmplines = split('\n', $result->text_basic());
+      if ($#tmplines == 0 && $tmplines[0] =~ m/^#/) {
+         $query = $tmplines[0];
+         $query =~ s/^#\w*\s(.*)$/$1/;
+      } else {
+         break;
+      }
+   } else {
+      break;
+   }
+}
 if (defined $result) {
    my @lines = split('\n', $result->text_basic());
    my @newlines;
@@ -86,8 +102,8 @@ if (defined $result) {
       }
    }
    if ($isDis && $lst) {
-      print "For more see http://$lang.wikipedia.org/wiki/$ARGV[0]\n";
+      print "For more see http://$lang.wikipedia.org/wiki/$query\n";
    }
 } else {
-   print "No matches with $ARGV[0]\n";
+   print "No matches with $query\n";
 }
