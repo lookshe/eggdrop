@@ -15,7 +15,7 @@ if (!$lang) {
 
 my $wiki = WWW::Wikipedia->new( language => $lang);
 
-my $result = $wiki->search( $ARGV[0] );
+my $result = $wiki->search( "$ARGV[0]" );
 if (defined $result) {
    my @lines = split('\n', $result->text());
    my @newlines;
