@@ -72,8 +72,10 @@ if (defined $result) {
    $ln = 0;
    my $lst = 0;
    foreach my $line (@newlines) {
+#print "$line\n";
       $line =~ s/<!--.*-->//g;
-      $line=~ s/^.*}}//g;
+      $line=~ s/^[^}{]*}}//g;
+      $line=~ s/^{{Infobox.*}}//g;
       $line=~ s/^[^\[]*\]\]//g;
       $line=~ s/^\s*//;
       $line=~ s/\s*$//;
@@ -88,6 +90,7 @@ if (defined $result) {
          $line =~ s/\(\s*\)//g;
          #$line = strip_tags($line);
          $line =~ s/<ref[^>]*>[^<]*<\/ref>//g;
+         $line =~ s/<ref[^>]*\/>//g;
          $line =~ s/\s+/ /g;
          $line =~ s/\s([,.\?!])/$1/g;
          if ($isDis) {
