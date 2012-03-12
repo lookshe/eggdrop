@@ -59,16 +59,16 @@ foreach act_arg $arg {
       if {$length >= $url_length} {
 
          #set tinyurl [make_tinyurl $url]      
-         set tinyurl [exec perl -e "use WWW::Shorten::TinyURL;print makeashorterlink(\"$url\");"]
+         set tinyurl [exec perl -e "use WWW::Shorten::TinyURL;binmode(STDOUT, \":utf8\");print makeashorterlink(\"$url\");"]
 
          if {$tinyurl != "0"} {
-            set title [exec perl -e "use URI::Title;print URI::Title::title(\"$url\");"]
+            set title [exec perl -e "use URI::Title;binmode(STDOUT, \":utf8\");print URI::Title::title(\"$url\");"]
             putserv "PRIVMSG $chan :\002Tiny URL\002: $tinyurl \[$title\] (URL by \002$nick\002)"
          }
       }
 
       if {([string match "*youtube*watch*" $url] == 1)} {
-            set title [exec perl -e "use URI::Title;print URI::Title::title(\"$url\");"]
+            set title [exec perl -e "use URI::Title;binmode(STDOUT, \":utf8\");print URI::Title::title(\"$url\");"]
             if {([string match "* - YouTube" $title] == 1)} {
                set title [string range $title 0 end-10]
                putserv "PRIVMSG $chan :\002Youtube\002: $title (URL by \002$nick\002)"
