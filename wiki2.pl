@@ -38,6 +38,7 @@ while ($found < 5) {
       }
    }
 }
+my $printed = 0;
 if (defined $result) {
    my @lines = split('\n', $result->text_basic());
    my @newlines;
@@ -97,6 +98,7 @@ if (defined $result) {
             if ($line =~ m/^\*\s?/) {
                last if ($ln == 3) && ($lst = 1);
                print "$line\n";
+               $printed = 1;
                $ln++;
             }
          } else {
@@ -106,6 +108,7 @@ if (defined $result) {
                $line =~ s/^(.*[\.!\?]) [^\.!\?]*$/$1 (...)/;
             }
             print "$line\n";
+            $printed = 1;
             last;
          }
       }
@@ -115,4 +118,6 @@ if (defined $result) {
    }
 } else {
    print "No matches with $query\n";
+   $printed = 1;
 }
+print "No information found in article for $query\n" if !$printed;
