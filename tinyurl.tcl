@@ -64,6 +64,7 @@ foreach act_arg $arg {
          if {$tinyurl != "0"} {
             set title [exec perl -e "use URI::Title;binmode(STDOUT, \":utf8\");print URI::Title::title(\"$url\");"]
             putserv "PRIVMSG $chan :\002Tiny URL\002: $tinyurl \[$title\] (URL by \002$nick\002)"
+            return 0
          }
       }
 
