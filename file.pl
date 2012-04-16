@@ -65,10 +65,8 @@ if ($found == 0) {
    }
    if ($morethanone =~/1/) {
       for ($i = 3; $i <= $#$list; $i++) {
-         if ($$list[$i] =~ /^.$type.+/i) {
-            last;
-         }
-         if ($$list[$i] !~ /^.$type$/i && $$list[$i] !~ /^Next matched file extensions?$/) {
+         if ($$list[$i] =~ /^.file extension $type$/i) {
+            $i++;
             print ".$type is $$list[$i]\n";
             $found = 1;
          }
