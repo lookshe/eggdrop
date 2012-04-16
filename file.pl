@@ -66,9 +66,13 @@ if ($found == 0) {
    if ($morethanone =~/1/) {
       for ($i = 3; $i <= $#$list; $i++) {
          if ($$list[$i] =~ /^.file extension $type$/i) {
+            if ($found == 3) {
+               print "for more see $wikiurl\n";
+               last;
+            }
             $i++;
             print ".$type is $$list[$i]\n";
-            $found = 1;
+            $found++;
          }
       }
    } else {
