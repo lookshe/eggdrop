@@ -68,7 +68,7 @@ foreach act_arg $arg {
          }
       }
 
-      if {([string match "*youtube*watch*" $url] == 1)} {
+      if {([string match "*youtube*watch*" $url] == 1) || ([string match "*youtu.bei*" $url] ==1)} {
             set title [exec perl -e "use URI::Title;binmode(STDOUT, \":utf8\");print URI::Title::title(\"$url\");"]
             if {([string match "* - YouTube" $title] == 1)} {
                set title [string range $title 0 end-10]
