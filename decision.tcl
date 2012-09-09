@@ -72,6 +72,9 @@ if {[info exists do_dec($nick:$chan)]} {
 }
 
    set allargs [string map {" " _} $arguments]
+   set allargs [string map {"\[" _} $allargs]
+   set allargs [string map {"]" _} $allargs]
+#putlog "all: $allargs"
    set arguments [split $arguments]
    set count 1
    set klammer_count 0
@@ -97,7 +100,7 @@ if {[info exists do_dec($nick:$chan)]} {
    set myrand [rand $klammer_count]
    if {[info exists do_dec($allargs)]} {
       set myrand $do_dec($allargs)
-      timer 60 "unset do_dec($allargs)"
+      #timer 1 "unset do_dec($allargs)"
    } else {
       set do_dec($allargs) $myrand
       timer 60 "unset do_dec($allargs)"

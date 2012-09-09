@@ -3,10 +3,16 @@
 bind pub - !wiki wiki
 bind pub - !ewiki ewiki
 #bind pub - !say say
+bind pub - !mitsu mitsu
 bind pub - !google say
 
 proc say {nick host hand chan arg} {
 #   putserv "PRIVMSG $chan :$arg";
+#   putserv "PRIVMSG $chan :das hier ist [string trimleft $chan #]";
+}
+
+proc mitsu {nick host hand chan arg} {
+  putserv "PRIVMSG $chan :www.mitsu-talk.de";
 #   putserv "PRIVMSG $chan :das hier ist [string trimleft $chan #]";
 }
 
