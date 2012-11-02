@@ -12,4 +12,4 @@ proc proc_file {nick host hand chan arg} {
    }
 }
 
-putlog "filetype by lookshe loaded"
+putlog "tld by lookshe loaded"
