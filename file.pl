@@ -11,6 +11,14 @@ use LWP::UserAgent;
 
 
 my $type = $ARGV[0];
+$type =~ s/\?/\\\?/g;
+$type =~ s/\$/\\\$/g;
+$type =~ s/\(/\\\(/g;
+$type =~ s/\)/\\\)/g;
+$type =~ s/\[/\\\[/g;
+$type =~ s/\]/\\\]/g;
+$type =~ s/\^/\\\^/g;
+my $type_out = $ARGV[0];
 my $file = $ARGV[1];
 my $skipFile = $ARGV[2];
 
@@ -72,13 +80,14 @@ if ($found == 0) {
                last;
             }
             $i++;
-            print ".$type is $$list[$i]\n";
+            print ".$type_out is $$list[$i]\n";
             $found++;
          }
       }
    } else {
-      print ".$type is $$text[0]\n";
-      $found = 1;
+      # aktuell gibts das nimmer
+      #print ".$type_out is $$text[0]\n";
+      #$found = 1;
    }
    #for ($i = 0; $i <= $#$list; $i++) {
    #   if ($$list[$i] =~ /^Extension: $type$/i) {
@@ -87,7 +96,7 @@ if ($found == 0) {
    #   }
    #}
    if ($found == 0) {
-      print ".$type not in database\n";
+      print ".$type_out not in database\n";
    }
 }
 
