@@ -18,7 +18,10 @@ $type =~ s/\)/\\\)/g;
 $type =~ s/\[/\\\[/g;
 $type =~ s/\]/\\\]/g;
 $type =~ s/\^/\\\^/g;
+$type =~ s/\#/\\\#/g;
+$type =~ s/\*/\\\*/g;
 my $type_out = $ARGV[0];
+my $type_esc = uri_escape($ARGV[0]);
 my $file = $ARGV[1];
 my $skipFile = $ARGV[2];
 
@@ -54,7 +57,7 @@ if ($found == 0) {
    #my $scrapp = scraper {
    #   process '//table/tr/td', 'chars[]' => 'TEXT';
    #};
-   my $wikiurl = "http://www.file-extensions.org/search/?searchstring=$ARGV[0]";
+   my $wikiurl = "http://www.file-extensions.org/search/?searchstring=$type_esc";
    my $scrapp = scraper {
       process '//table/tr/td', 'chars[]' => 'TEXT';
       process '//div//p', 'results[]' => 'TEXT';
