@@ -64,7 +64,8 @@ if ($found == 0) {
       }
    }
    if ($morethanone =~/1/) {
-      for ($i = 3; $i <= $#$list; $i++) {
+      for ($i = 2; $i <= $#$list; $i++) {
+#print "$$list[$i]\n";
          if ($$list[$i] =~ /^.file extension $type$/i) {
             if ($found == 3) {
                print "for more see $wikiurl\n";
