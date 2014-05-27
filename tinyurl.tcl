@@ -56,6 +56,10 @@ foreach act_arg $arg {
       # Check length of URL 
       set length [string length $url]
 
+      if {[string match "www.*" $url] == 1} {
+         set url "http://$url"
+      }
+
       if {$length >= $url_length} {
 
          #set tinyurl [make_tinyurl $url]      
