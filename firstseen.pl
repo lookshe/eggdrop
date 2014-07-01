@@ -38,7 +38,7 @@ foreach $line (<file>) {
       if ($line =~ m/^\[00:00(:00)?\] --- /){
          ($date=$line)=~s/^\[00:00(:00)?\] --- (.*)\n/$2/;
       }
-      if ($line =~ m/^\[[0-9]{2}:[0-9]{2}(:[0-]{2})?\] Nick change: .* -> $snick/i) {
+      if ($line =~ m/^\[[0-9]{2}:[0-9]{2}(:[0-9]{2})?\] Nick change: .* -> $snick/i) {
          ($newnick=$line)=~s/.* Nick change: (.*) -> $snick\n/$1/i;
          print "$nick was $newnick\n";
          exec($^X, $0, $folder, $chan, $newnick);
