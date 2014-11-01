@@ -4,7 +4,7 @@
 #use warnings;
 use WWW::Wikipedia;
 use HTML::Entities;
-use HTML::StripTags qw(strip_tags);
+#use HTML::StripTags qw(strip_tags);
 
 binmode(STDOUT, ":utf8");
 
