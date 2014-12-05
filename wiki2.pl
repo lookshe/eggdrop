@@ -46,6 +46,7 @@ if (defined $result) {
    my $isDis = 0;
    my $ln = 0;
    my $comment = 0;
+   my $gallery = 0;
    foreach my $line (@lines) {
 #print "$line\n";
       $line =~ s/<!--.*-->//g;
@@ -55,6 +56,8 @@ if (defined $result) {
       $line=~ s/\s*$//;
       $comment = 1 if $line =~ m/^<!--$/;
       $comment = 0 if $line =~ m/^-->$/;
+      $gallery = 1 if $line =~ m/^<gallery[^>]*>$/;
+      $gallery = 0 if $line =~ m/^<\/gallery>$/;
       if ($line && $line =~ m/^\*\s?/ && $ln < 4) {
          push(@newlines, $newline);
          push(@newlines, $line);
@@ -64,6 +67,7 @@ if (defined $result) {
          $newline = "$newline$line ";
          $ln++;
       } elsif ($comment) {
+      } elsif ($gallery) {
       } else {
          push(@newlines, $newline);
          $newline = "";
@@ -74,7 +78,8 @@ if (defined $result) {
    my $lst = 0;
    foreach my $line (@newlines) {
 #print "$line\n";
-      $line =~ s/<!--.*-->//g;
+      $line=~ s/<!--.*-->//g;
+      $line=~ s/<gallery[^>]*>[^<]*<\/gallery>//g;
       $line=~ s/^[^}{]*}}//g;
       $line=~ s/^{{Infobox.*}}//g;
       $line=~ s/^[^\[]*\]\]//g;
