@@ -45,7 +45,7 @@ for ($i = 0; $i < $#$table && found != 1; $i++)
    {
       $tabletype_enc = encode("utf8", $$table[$i+1]);
       #print "$$table[$i+1] is $$table[$i+2]\n";
-      if ($tabletype_enc =~ /$type/)
+      if ($tabletype_enc =~ /^$type$/)
       {
          ($result = $$table[$i+2]) =~ s/^ //;
          print "$type is ";
