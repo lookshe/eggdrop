@@ -1,6 +1,6 @@
-bind pub - !tld proc_file
+bind pub - !tld proc_tld
 
-proc proc_file {nick host hand chan arg} {
+proc proc_tld {nick host hand chan arg} {
    set arg [string trim $arg]
    if {$arg == ""} {
       return 0
